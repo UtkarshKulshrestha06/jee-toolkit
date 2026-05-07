@@ -1,0 +1,2890 @@
+[
+  {
+    "institute_id": "iiit-delhi",
+    "institute_name": "Indraprastha Institute of Information Technology, Delhi",
+    "short_name": "IIIT Delhi",
+    "college_type": "IIIT",
+    "establishment_year": 2008,
+    "state": "Delhi",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 92.21
+        },
+        "2024": {
+          "placement_ratio_percentage": 90.57,
+          "median_package_lpa": 16.12,
+          "highest_package_lpa": 109.0,
+          "average_package_lpa": 22.04
+        },
+        "2023": {
+          "placement_ratio_percentage": 97.22,
+          "median_package_lpa": 18.5,
+          "highest_package_lpa": 51.3,
+          "average_package_lpa": 25.39
+        },
+        "2022": {
+          "placement_ratio_percentage": 98.85,
+          "median_package_lpa": 17.0,
+          "highest_package_lpa": 183.94,
+          "average_package_lpa": 20.86
+        },
+        "2021": {
+          "placement_ratio_percentage": 96.54
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Applied Mathematics",
+            "placement_ratio_percentage": 98.28
+          },
+          {
+            "branch_name": "Computer Science and Artificial Intelligence",
+            "placement_ratio_percentage": 95.92
+          },
+          {
+            "branch_name": "Computer Science and Biosciences",
+            "placement_ratio_percentage": 90.48
+          },
+          {
+            "branch_name": "Computer Science and Design",
+            "placement_ratio_percentage": 82.93
+          },
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 93.55
+          },
+          {
+            "branch_name": "Computer Science and Social Sciences",
+            "placement_ratio_percentage": 87.88
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 96.43
+          }
+        ],
+        "2024": [
+          {
+            "branch_name": "Computer Science and Applied Mathematics",
+            "placement_ratio_percentage": 95.38,
+            "median_package_lpa": 17.34,
+            "highest_package_lpa": 49.0,
+            "average_package_lpa": 20.42
+          },
+          {
+            "branch_name": "Computer Science and Artificial Intelligence",
+            "placement_ratio_percentage": 95.0,
+            "median_package_lpa": 16.0,
+            "highest_package_lpa": 49.0,
+            "average_package_lpa": 24.77
+          },
+          {
+            "branch_name": "Computer Science and Biosciences",
+            "placement_ratio_percentage": 87.18,
+            "median_package_lpa": 14.5,
+            "highest_package_lpa": 49.0,
+            "average_package_lpa": 18.51
+          },
+          {
+            "branch_name": "Computer Science and Design",
+            "placement_ratio_percentage": 91.89,
+            "median_package_lpa": 18.33,
+            "highest_package_lpa": 49.0,
+            "average_package_lpa": 20.3
+          },
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 94.12,
+            "median_package_lpa": 20.0,
+            "highest_package_lpa": 109.0,
+            "average_package_lpa": 26.44
+          },
+          {
+            "branch_name": "Computer Science and Social Sciences",
+            "placement_ratio_percentage": 84.09,
+            "median_package_lpa": 11.0,
+            "highest_package_lpa": 49.0,
+            "average_package_lpa": 14.93
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 82.26,
+            "median_package_lpa": 15.67,
+            "highest_package_lpa": 49.0,
+            "average_package_lpa": 18.89
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Applied Mathematics",
+            "placement_ratio_percentage": 98.44,
+            "median_package_lpa": 23.19,
+            "highest_package_lpa": 51.03,
+            "average_package_lpa": 26.82
+          },
+          {
+            "branch_name": "Computer Science and Artificial Intelligence",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 30.36,
+            "highest_package_lpa": 51.03,
+            "average_package_lpa": 29.04
+          },
+          {
+            "branch_name": "Computer Science and Biosciences",
+            "placement_ratio_percentage": 97.67,
+            "median_package_lpa": 18.5,
+            "highest_package_lpa": 51.3,
+            "average_package_lpa": 20.69
+          },
+          {
+            "branch_name": "Computer Science and Design",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 18.5,
+            "highest_package_lpa": 51.3,
+            "average_package_lpa": 25.57
+          },
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 98.37,
+            "median_package_lpa": 24.43,
+            "highest_package_lpa": 51.03,
+            "average_package_lpa": 28.78
+          },
+          {
+            "branch_name": "Computer Science and Social Sciences",
+            "placement_ratio_percentage": 90.63,
+            "median_package_lpa": 18.5,
+            "highest_package_lpa": 51.03,
+            "average_package_lpa": 22.31
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 94.29,
+            "median_package_lpa": 18.5,
+            "highest_package_lpa": 51.03,
+            "average_package_lpa": 21.03
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Applied Mathematics",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 15.71,
+            "highest_package_lpa": 43.0,
+            "average_package_lpa": 20.82
+          },
+          {
+            "branch_name": "Computer Science and Biosciences",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 16.0,
+            "highest_package_lpa": 54.62,
+            "average_package_lpa": 19.51
+          },
+          {
+            "branch_name": "Computer Science and Design",
+            "placement_ratio_percentage": 93.62,
+            "median_package_lpa": 15.92,
+            "highest_package_lpa": 54.83,
+            "average_package_lpa": 19.89
+          },
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 17.0,
+            "highest_package_lpa": 183.94,
+            "average_package_lpa": 24.4
+          },
+          {
+            "branch_name": "Computer Science and Social Sciences",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 15.12,
+            "highest_package_lpa": 43.0,
+            "average_package_lpa": 17.99
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 98.41,
+            "median_package_lpa": 16.0,
+            "highest_package_lpa": 39.0,
+            "average_package_lpa": 17.06
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "B.Tech CSAM",
+            "placement_ratio_percentage": 100.0
+          },
+          {
+            "branch_name": "B.Tech CSD",
+            "placement_ratio_percentage": 94.74
+          },
+          {
+            "branch_name": "B.Tech CSE",
+            "placement_ratio_percentage": 100.0
+          },
+          {
+            "branch_name": "B.Tech CSSS",
+            "placement_ratio_percentage": 95.65
+          },
+          {
+            "branch_name": "B.Tech ECE",
+            "placement_ratio_percentage": 92.31
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2014/06/IIITD-Logo.jpg"
+    },
+    "campus_area": "25 Acres",
+    "location": "IIIT Delhi, Okhla Industrial Estate, Phase III, New Delhi 110020",
+    "description": "Created by an act of the Delhi Government in 2008, IIIT Delhi is a globally respected state university known for its deep research culture and top-tier CSE/CSD programs.",
+    "highlights": [
+      "Ranked #75 in Engineering by NIRF 2023",
+      "Stellar placement records with average packages exceeding 23 LPA",
+      "State-of-the-art 25-acre modern campus in South Delhi",
+      "Renowned faculty with global exposure and heavy research funding"
+    ],
+    "rankings": {
+      "nirf_engineering": 75,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 210000,
+      "overall_rough_estimate_4_years": 2000000
+    }
+  },
+  {
+    "institute_id": "iiitm-gwalior",
+    "institute_name": "Indian Institute of Information Technology and Management, Gwalior",
+    "short_name": "ABV-IIITM Gwalior",
+    "college_type": "IIIT",
+    "establishment_year": 1997,
+    "state": "Madhya Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "highest_package_lpa": 67.5,
+          "average_package_lpa": 28.44
+        },
+        "2024": {
+          "highest_package_lpa": 65.0,
+          "average_package_lpa": 20.32
+        },
+        "2023": {
+          "placement_ratio_percentage": 85.02,
+          "median_package_lpa": 14.0,
+          "highest_package_lpa": 65.0,
+          "average_package_lpa": 21.72
+        },
+        "2022": {
+          "placement_ratio_percentage": 87.13,
+          "median_package_lpa": 17.0,
+          "highest_package_lpa": 195.0,
+          "average_package_lpa": 23.3
+        },
+        "2021": {
+          "highest_package_lpa": 57.71,
+          "average_package_lpa": 14.62
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "B.Tech. Computer Science and Engineering",
+            "highest_package_lpa": 67.5,
+            "average_package_lpa": 27.23
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and M.Tech. (IT)",
+            "highest_package_lpa": 67.5,
+            "average_package_lpa": 29.59
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and MBA",
+            "highest_package_lpa": 54.0,
+            "average_package_lpa": 28.49
+          }
+        ],
+        "2024": [
+          {
+            "branch_name": "B.Tech. Computer Science and Engineering",
+            "highest_package_lpa": 65.0,
+            "average_package_lpa": 22.11
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and M.Tech. (IT)",
+            "highest_package_lpa": 65.0,
+            "average_package_lpa": 22.68
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and MBA",
+            "highest_package_lpa": 65.0,
+            "average_package_lpa": 16.18
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "B.Tech. Computer Science and Engineering",
+            "placement_ratio_percentage": 90.0,
+            "median_package_lpa": 15.0,
+            "highest_package_lpa": 65.0,
+            "average_package_lpa": 22.2
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and M.Tech. (IT)",
+            "placement_ratio_percentage": 84.31,
+            "median_package_lpa": 14.1,
+            "highest_package_lpa": 65.0,
+            "average_package_lpa": 24.01
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and MBA",
+            "placement_ratio_percentage": 80.0,
+            "median_package_lpa": 14.0,
+            "highest_package_lpa": 50.5,
+            "average_package_lpa": 16.7
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "B.Tech. Computer Science and Engineering",
+            "placement_ratio_percentage": 90.0,
+            "median_package_lpa": 20.0,
+            "highest_package_lpa": 195.0,
+            "average_package_lpa": 24.85
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and M.Tech. (IT)",
+            "placement_ratio_percentage": 90.91,
+            "median_package_lpa": 17.75,
+            "highest_package_lpa": 100.2,
+            "average_package_lpa": 23.26
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and MBA",
+            "placement_ratio_percentage": 77.78,
+            "median_package_lpa": 15.78,
+            "highest_package_lpa": 45.0,
+            "average_package_lpa": 18.85
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "B.Tech. Computer Science and Engineering",
+            "highest_package_lpa": 43.0,
+            "average_package_lpa": 15.81
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and M.Tech. (IT)",
+            "highest_package_lpa": 100.13,
+            "average_package_lpa": 19.04
+          },
+          {
+            "branch_name": "Integrated B.Tech. (IT) and MBA",
+            "highest_package_lpa": 30.0,
+            "average_package_lpa": 9.02
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2014/06/IIITM-Gwalior-Logo-e1406741979820.png"
+    },
+    "campus_area": "160 Acres",
+    "location": "ABV-IIITM Gwalior, Morena Link Road, Gwalior, Madhya Pradesh 474015",
+    "description": "Established in 1997, ABV-IIITM Gwalior is a premier CFTI recognized as an Institute of National Importance. It integrates IT and Management disciplines, offering dual degree and B.Tech programs.",
+    "highlights": [
+      "Ranked #88 in Engineering by NIRF 2023 [1.10]",
+      "Beautiful 160-acre campus situated near the foothills of Gwalior Fort",
+      "Highest domestic package of 65 LPA with an average around 24 LPA",
+      "100% placement record for major branches with global tech recruiters"
+    ],
+    "rankings": {
+      "nirf_engineering": 88,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 79000,
+      "overall_rough_estimate_4_years": 850000
+    }
+  },
+  {
+    "institute_id": "iiitdm-jabalpur",
+    "institute_name": "Indian Institute of Information Technology Design & Manufacturing, Jabalpur",
+    "short_name": "IIITDM Jabalpur",
+    "college_type": "IIIT",
+    "establishment_year": 2005,
+    "state": "Madhya Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 63.07,
+          "median_package_lpa": 12.0,
+          "highest_package_lpa": 135.0,
+          "average_package_lpa": 17.75
+        },
+        "2023": {
+          "placement_ratio_percentage": 80.52,
+          "median_package_lpa": 17.78,
+          "highest_package_lpa": 82.0,
+          "average_package_lpa": 21.72
+        },
+        "2022": {
+          "placement_ratio_percentage": 88.62,
+          "median_package_lpa": 10.0,
+          "highest_package_lpa": 46.0,
+          "average_package_lpa": 14.81
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 74.47,
+            "median_package_lpa": 13.0,
+            "highest_package_lpa": 135.0,
+            "average_package_lpa": 19.82
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 53.72,
+            "median_package_lpa": 9.5,
+            "highest_package_lpa": 122.0,
+            "average_package_lpa": 17.03
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 38.3,
+            "median_package_lpa": 7.6,
+            "highest_package_lpa": 21.34,
+            "average_package_lpa": 8.69
+          },
+          {
+            "branch_name": "Smart Manufacturing",
+            "placement_ratio_percentage": 51.52,
+            "median_package_lpa": 7.0,
+            "highest_package_lpa": 25.0,
+            "average_package_lpa": 9.03
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 92.31,
+            "median_package_lpa": 18.27,
+            "highest_package_lpa": 52.0,
+            "average_package_lpa": 25.08
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 84.11,
+            "median_package_lpa": 18.27,
+            "highest_package_lpa": 82.0,
+            "average_package_lpa": 23.48
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 59.52,
+            "median_package_lpa": 9.08,
+            "highest_package_lpa": 52.0,
+            "average_package_lpa": 11.91
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 16.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 19.04
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 95.0,
+            "median_package_lpa": 12.0,
+            "highest_package_lpa": 45.0,
+            "average_package_lpa": 14.46
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 67.12,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 9.0,
+            "average_package_lpa": 7.34
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2014/06/IIITDM-Jabalpur-Logo.jpg"
+    },
+    "campus_area": "260 Acres",
+    "location": "IIITDM Jabalpur, Dumna Airport Road, Jabalpur, Madhya Pradesh 482005",
+    "description": "Founded in 2005, IIITDM Jabalpur is a CFTI that uniquely focuses on blending Information Technology with Design and Manufacturing engineering disciplines.",
+    "highlights": [
+      "Ranked #97 in Engineering by NIRF 2023",
+      "Sprawling 260-acre eco-friendly campus with modern amenities [1.9]",
+      "Highest package of 82 LPA with a strong average of 21.6 LPA",
+      "Robust curriculum emphasizing project-based learning and design innovation"
+    ],
+    "rankings": {
+      "nirf_engineering": 97,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 65000,
+      "overall_rough_estimate_4_years": 750000
+    }
+  },
+  {
+    "institute_id": "iiitdm-kancheepuram",
+    "institute_name": "Indian Institute of Information Technology Design & Manufacturing, Kancheepuram",
+    "short_name": "IIITDM Kancheepuram",
+    "college_type": "IIIT",
+    "establishment_year": 2007,
+    "state": "Tamil Nadu",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 69.23,
+          "median_package_lpa": 11.43,
+          "highest_package_lpa": 35.4,
+          "average_package_lpa": 17.36
+        },
+        "2023": {
+          "placement_ratio_percentage": 40.54,
+          "median_package_lpa": 11.5,
+          "highest_package_lpa": 30.0,
+          "average_package_lpa": 14.47
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 64.1,
+            "median_package_lpa": 18.78,
+            "highest_package_lpa": 35.4,
+            "average_package_lpa": 19.19
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 44.83,
+            "median_package_lpa": 9.05,
+            "highest_package_lpa": 29.06,
+            "average_package_lpa": 9.49
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 70.73,
+            "median_package_lpa": 5.0,
+            "highest_package_lpa": 15.22,
+            "average_package_lpa": 5.79
+          },
+          {
+            "branch_name": "Smart Manufacturing",
+            "placement_ratio_percentage": 47.06,
+            "median_package_lpa": 6.75,
+            "highest_package_lpa": 7.5,
+            "average_package_lpa": 6.75
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering with specialization in Communication Systems Design",
+            "placement_ratio_percentage": 50.0,
+            "median_package_lpa": 20.68,
+            "highest_package_lpa": 31.62,
+            "average_package_lpa": 19.75
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering with specialization in VLSI Design",
+            "placement_ratio_percentage": 73.33,
+            "median_package_lpa": 18.78,
+            "highest_package_lpa": 18.78,
+            "average_package_lpa": 17.33
+          },
+          {
+            "branch_name": "Mechanical Engineering with specialization in Advanced Manufacturing",
+            "placement_ratio_percentage": 91.67,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 9.0,
+            "average_package_lpa": 7.88
+          },
+          {
+            "branch_name": "Mechanical Engineering with specialization in Product Design",
+            "placement_ratio_percentage": 76.92,
+            "median_package_lpa": 6.8,
+            "highest_package_lpa": 12.0,
+            "average_package_lpa": 8.27
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 61.54,
+            "median_package_lpa": 13.5,
+            "highest_package_lpa": 30.0,
+            "average_package_lpa": 16.69
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 39.58,
+            "median_package_lpa": 7.0,
+            "highest_package_lpa": 32.0,
+            "average_package_lpa": 8.65
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 29.27,
+            "median_package_lpa": 5.2,
+            "highest_package_lpa": 10.1,
+            "average_package_lpa": 5.88
+          },
+          {
+            "branch_name": "Smart Manufacturing",
+            "placement_ratio_percentage": 32.43,
+            "median_package_lpa": 6.0,
+            "highest_package_lpa": 25.3,
+            "average_package_lpa": 9.04
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering with specialization in Communication Systems Design",
+            "placement_ratio_percentage": 31.82,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 27.0,
+            "average_package_lpa": 11.35
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering with specialization in VLSI Design",
+            "placement_ratio_percentage": 39.29,
+            "median_package_lpa": 18.0,
+            "highest_package_lpa": 27.0,
+            "average_package_lpa": 16.64
+          },
+          {
+            "branch_name": "Mechanical Engineering with specialization in Advanced Manufacturing",
+            "placement_ratio_percentage": 33.33,
+            "median_package_lpa": 5.5,
+            "highest_package_lpa": 9.0,
+            "average_package_lpa": 5.79
+          },
+          {
+            "branch_name": "Mechanical Engineering with specialization in Product Design",
+            "placement_ratio_percentage": 12.0,
+            "median_package_lpa": 11.5,
+            "highest_package_lpa": 11.5,
+            "average_package_lpa": 10.47
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIITDM-Kancheepuram-Logo.png"
+    },
+    "campus_area": "51 Acres",
+    "location": "IIITDM Kancheepuram, Melakottaiyur, Chennai, Tamil Nadu 600127",
+    "description": "Established in 2007 by the Ministry of Education, this Institute of National Importance specializes in IT and design-centric engineering education, located in the IT corridor of Chennai.",
+    "highlights": [
+      "Rank Band 101-150 in Engineering by NIRF 2023",
+      "Strategic location near Chennai's industrial hub promoting strong industry tie-ups",
+      "Highest package around 32 LPA with consistent placements in core design and IT",
+      "Modern 51-acre self-contained residential campus"
+    ],
+    "rankings": {
+      "nirf_engineering": "Rank Band 101-150",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 60000,
+      "overall_rough_estimate_4_years": 650000
+    }
+  },
+  {
+    "institute_id": "iiitdm-kurnool",
+    "institute_name": "Indian Institute of Information Technology Design and Manufacturing, Kurnool",
+    "short_name": "IIITDM Kurnool",
+    "college_type": "IIIT",
+    "establishment_year": 2015,
+    "state": "Andhra Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 71.05,
+          "median_package_lpa": 5.5,
+          "highest_package_lpa": 32.5,
+          "average_package_lpa": 6.3
+        },
+        "2023": {
+          "placement_ratio_percentage": 61.63,
+          "highest_package_lpa": 28.0,
+          "average_package_lpa": 10.86
+        },
+        "2022": {
+          "placement_ratio_percentage": 77.67,
+          "highest_package_lpa": 130.0,
+          "average_package_lpa": 9.51
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Artificial Intelligence and Data Science",
+            "placement_ratio_percentage": 68.0,
+            "median_package_lpa": 5.2,
+            "highest_package_lpa": 13.0,
+            "average_package_lpa": 6.0
+          },
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 76.92,
+            "median_package_lpa": 7.2,
+            "highest_package_lpa": 32.5,
+            "average_package_lpa": 8.02
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering with specialization in Design and Manufacturing",
+            "placement_ratio_percentage": 63.33,
+            "median_package_lpa": 4.8,
+            "highest_package_lpa": 6.0,
+            "average_package_lpa": 5.5
+          },
+          {
+            "branch_name": "Mechanical Engineering with specialization in Design and Manufacturing",
+            "placement_ratio_percentage": 75.0,
+            "median_package_lpa": 4.8,
+            "highest_package_lpa": 8.0,
+            "average_package_lpa": 5.69
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 89.47,
+            "highest_package_lpa": 28.0,
+            "average_package_lpa": 12.13
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 37.04,
+            "highest_package_lpa": 14.0,
+            "average_package_lpa": 9.08
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 42.86,
+            "highest_package_lpa": 9.0,
+            "average_package_lpa": 5.77
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 84.62,
+            "average_package_lpa": 11.52
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 87.5,
+            "highest_package_lpa": 11.0,
+            "average_package_lpa": 7.62
+          },
+          {
+            "branch_name": "Mechanical Engineering",
+            "placement_ratio_percentage": 59.38,
+            "highest_package_lpa": 7.5,
+            "average_package_lpa": 6.17
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2018/06/IIITDM-Kurnool-Logo.png"
+    },
+    "campus_area": "152 Acres",
+    "location": "IIITDM Kurnool, Jagannathagattu, Kurnool, Andhra Pradesh 518008",
+    "description": "Announced in 2014 and fully functional as a CFTI, IIITDM Kurnool promotes excellence in IT and manufacturing-related fields with rapidly expanding infrastructure.",
+    "highlights": [
+      "Emerging Institute of National Importance fully funded by the Central Govt",
+      "Scenic 152-acre campus at Jagannathagattu hill",
+      "Increasing placement statistics with highest packages up to 28 LPA",
+      "Strong focus on smart manufacturing and computational engineering"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 200",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 60000,
+      "overall_rough_estimate_4_years": 650000
+    }
+  },
+  {
+    "institute_id": "iiit-allahabad",
+    "institute_name": "Indian Institute of Information Technology, Allahabad",
+    "short_name": "IIIT Allahabad",
+    "college_type": "IIIT",
+    "establishment_year": 1999,
+    "state": "Uttar Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 90.16,
+          "median_package_lpa": 17.91,
+          "highest_package_lpa": 103.0,
+          "average_package_lpa": 24.69
+        },
+        "2023": {
+          "placement_ratio_percentage": 96.12,
+          "median_package_lpa": 28.25,
+          "highest_package_lpa": 77.59,
+          "average_package_lpa": 32.14
+        },
+        "2022": {
+          "placement_ratio_percentage": 92.38,
+          "median_package_lpa": 28.0,
+          "highest_package_lpa": 120.0,
+          "average_package_lpa": 30.68
+        },
+        "2020": {
+          "highest_package_lpa": 43.0,
+          "average_package_lpa": 20.83
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 84.11,
+            "median_package_lpa": 15.5,
+            "highest_package_lpa": 83.0,
+            "average_package_lpa": 24.7
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 92.15,
+            "median_package_lpa": 20.98,
+            "highest_package_lpa": 71.0,
+            "average_package_lpa": 24.48
+          },
+          {
+            "branch_name": "Information Technology-Business Informatics",
+            "placement_ratio_percentage": 94.59,
+            "median_package_lpa": 17.25,
+            "highest_package_lpa": 103.0,
+            "average_package_lpa": 24.89
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 97.32,
+            "median_package_lpa": 23.75,
+            "highest_package_lpa": 67.76,
+            "average_package_lpa": 29.11
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 95.76,
+            "median_package_lpa": 30.0,
+            "highest_package_lpa": 82.5,
+            "average_package_lpa": 34.66
+          },
+          {
+            "branch_name": "Information Technology-Business Informatics",
+            "placement_ratio_percentage": 94.87,
+            "median_package_lpa": 31.0,
+            "highest_package_lpa": 82.5,
+            "average_package_lpa": 32.66
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 98.67,
+            "median_package_lpa": 26.2,
+            "highest_package_lpa": 66.0,
+            "average_package_lpa": 32.54
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 92.51,
+            "median_package_lpa": 29.0,
+            "highest_package_lpa": 120.0,
+            "average_package_lpa": 30.9
+          },
+          {
+            "branch_name": "Dual Degree",
+            "placement_ratio_percentage": 84.85,
+            "median_package_lpa": 25.11,
+            "highest_package_lpa": 61.35,
+            "average_package_lpa": 30.76
+          }
+        ],
+        "2020": [
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "highest_package_lpa": 32.0,
+            "average_package_lpa": 16.0
+          },
+          {
+            "branch_name": "Information Technology",
+            "highest_package_lpa": 43.0,
+            "average_package_lpa": 22.5
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIIT-Allahabad-Logo.png"
+    },
+    "campus_area": "100 Acres",
+    "location": "IIIT Allahabad, Jhalwa, Prayagraj, Uttar Pradesh 211015",
+    "description": "Established in 1999 as a Center of Excellence in IT, IIIT Allahabad is a Centrally Funded Technical Institute (CFTI) and an Institute of National Importance, known for its rigorous academic curriculum and exceptional placements.",
+    "highlights": [
+      "Ranked #89 in Engineering by NIRF 2023 [1.5]",
+      "Highest package of 1.20 Cr in 2023 with an average over 30 LPA",
+      "State-of-the-art 100-acre lush green campus in Jhalwa",
+      "Fully funded by the Ministry of Education (MoE), Govt. of India"
+    ],
+    "rankings": {
+      "nirf_engineering": 89,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 70000,
+      "overall_rough_estimate_4_years": 750000
+    }
+  },
+  {
+    "institute_id": "iiit-lucknow",
+    "institute_name": "Indian Institute of Information Technology, Lucknow",
+    "short_name": "IIIT Lucknow",
+    "college_type": "IIIT",
+    "establishment_year": 2015,
+    "state": "Uttar Pradesh",
+    "placements": {
+      "overall": {},
+      "branch_wise": {}
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2019/12/IIIT-Lucknow-Logo.png"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Lucknow, Chak Ganjaria, C. G. City, Lucknow, Uttar Pradesh 226002",
+    "description": "Started in 2015, IIIT Lucknow is a PPP-mode institute famous for its extraordinary placement statistics that rival top-tier IITs and NITs.",
+    "highlights": [
+      "Staggering average placement package of around 30 LPA in recent years",
+      "Highest package extending up to 59 LPA with 100% placement records",
+      "Specialized branches in AI, Computer Science, and Business",
+      "Situated in the modern IT city of Lucknow"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 120000,
+      "overall_rough_estimate_4_years": 1400000
+    }
+  },
+  {
+    "institute_id": "iiit-pune",
+    "institute_name": "Indian Institute of Information Technology, Pune",
+    "short_name": "IIIT Pune",
+    "college_type": "IIIT",
+    "establishment_year": 2016,
+    "state": "Maharashtra",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 28.88,
+          "median_package_lpa": 10.0,
+          "highest_package_lpa": 43.0,
+          "average_package_lpa": 13.6
+        },
+        "2022": {
+          "median_package_lpa": 11.0,
+          "highest_package_lpa": 53.0,
+          "average_package_lpa": 14.25
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 28.48,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 43.0,
+            "average_package_lpa": 13.25
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 30.56,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 21.0,
+            "average_package_lpa": 11.84
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "median_package_lpa": 14.0,
+            "highest_package_lpa": 43.5,
+            "average_package_lpa": 16.6
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 53.0,
+            "average_package_lpa": 11.9
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2016/10/IIIT-Pune-Logo.png"
+    },
+    "campus_area": "100 Acres",
+    "location": "IIIT Pune, Sinhgad College Campus, Ambegaon, Pune, Maharashtra 411041",
+    "description": "Established in 2016 under the PPP model, IIIT Pune benefits vastly from being located in one of India's largest IT and automotive hubs.",
+    "highlights": [
+      "Remarkable average package of ~17 LPA with the highest hitting 53 LPA [2.5]",
+      "Exceptional coding culture actively participating in ACM ICPC",
+      "Proximity to Pune's massive IT sector ensuring high industry interaction",
+      "Permanent 100-acre campus planned at Nanoli"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 120000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_id": "iiit-nagpur",
+    "institute_name": "Indian Institute of Information Technology, Nagpur",
+    "short_name": "IIIT Nagpur",
+    "college_type": "IIIT",
+    "establishment_year": 2016,
+    "state": "Maharashtra",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 80.0,
+          "highest_package_lpa": 47.0
+        },
+        "2023": {
+          "placement_ratio_percentage": 79.74,
+          "median_package_lpa": 12.0,
+          "highest_package_lpa": 86.0,
+          "average_package_lpa": 13.67
+        },
+        "2022": {
+          "placement_ratio_percentage": 92.17,
+          "median_package_lpa": 10.0,
+          "highest_package_lpa": 40.0,
+          "average_package_lpa": 12.04
+        },
+        "2020": {
+          "placement_ratio_percentage": 73.17
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 82.88,
+            "highest_package_lpa": 47.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 72.22,
+            "highest_package_lpa": 20.0
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 81.9,
+            "median_package_lpa": 12.0,
+            "highest_package_lpa": 86.0,
+            "average_package_lpa": 13.76
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 75.0,
+            "median_package_lpa": 11.0,
+            "highest_package_lpa": 28.23,
+            "average_package_lpa": 13.15
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 96.0,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 40.0,
+            "average_package_lpa": 12.95
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 85.0,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 20.15,
+            "average_package_lpa": 10.1
+          }
+        ],
+        "2020": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 83.33
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 58.82
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2016/10/IIIT-Nagpur-Logo.jpg"
+    },
+    "campus_area": "100 Acres",
+    "location": "IIIT Nagpur, Survey No. 140, 141/1 Village - Waranga, Dongargaon, Nagpur, Maharashtra 441108",
+    "description": "Established in 2016 under the PPP format, IIIT Nagpur has built a stellar reputation with its modern infrastructure and highly competitive IT programs.",
+    "highlights": [
+      "State-of-the-art permanent campus constructed over 100 acres",
+      "Industry partnership with Tata Consultancy Services (TCS) [2.16]",
+      "Highest placement package of 60 LPA and median around 12 LPA",
+      "Offers niche specializations like AI, IoT, and Data Science"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 99000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_id": "iiit-sri-city",
+    "institute_name": "Indian Institute of Information Technology, Sri City",
+    "short_name": "IIIT Sri City",
+    "college_type": "IIIT",
+    "establishment_year": 2013,
+    "state": "Andhra Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "median_package_lpa": 12.0,
+          "average_package_lpa": 13.45
+        },
+        "2023": {
+          "median_package_lpa": 14.0,
+          "highest_package_lpa": 120.0,
+          "average_package_lpa": 18.66
+        },
+        "2022": {
+          "median_package_lpa": 10.05,
+          "highest_package_lpa": 85.0,
+          "average_package_lpa": 12.27
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "median_package_lpa": 12.0,
+            "average_package_lpa": 14.5
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "median_package_lpa": 12.0,
+            "average_package_lpa": 12.4
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "median_package_lpa": 14.0,
+            "highest_package_lpa": 120.0,
+            "average_package_lpa": 20.07
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "median_package_lpa": 14.0,
+            "highest_package_lpa": 51.0,
+            "average_package_lpa": 17.25
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "median_package_lpa": 10.06,
+            "highest_package_lpa": 85.0,
+            "average_package_lpa": 15.05
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "median_package_lpa": 10.05,
+            "highest_package_lpa": 28.0,
+            "average_package_lpa": 9.48
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIIT-Chittoor-Logo.jpg"
+    },
+    "campus_area": "70 Acres",
+    "location": "IIIT Sri City, Gnan Marg, Sri City, Chittoor District, Andhra Pradesh 517646",
+    "description": "Operated under the PPP model and established in 2013, IIIT Sri City is situated in a massive integrated business city, providing students with unparalleled industrial exposure.",
+    "highlights": [
+      "Industry-aligned curriculum tailored to emerging tech trends",
+      "Excellent placement records with an average package of 20.3 LPA",
+      "Active ecosystem of startups and innovation cells",
+      "70-acre campus surrounded by over 180 multinational companies"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 140000,
+      "overall_rough_estimate_4_years": 1500000
+    }
+  },
+  {
+    "institute_id": "iiit-dharwad",
+    "institute_name": "Indian Institute of Information Technology, Dharwad",
+    "short_name": "IIIT Dharwad",
+    "college_type": "IIIT",
+    "establishment_year": 2015,
+    "state": "Karnataka",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 62.16,
+          "median_package_lpa": 8.0,
+          "highest_package_lpa": 46.0,
+          "average_package_lpa": 9.57
+        },
+        "2023": {
+          "placement_ratio_percentage": 58.11,
+          "median_package_lpa": 8.0,
+          "highest_package_lpa": 35.0,
+          "average_package_lpa": 11.42
+        },
+        "2022": {
+          "placement_ratio_percentage": 76.0,
+          "median_package_lpa": 7.5,
+          "highest_package_lpa": 26.0,
+          "average_package_lpa": 8.5
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 62.89,
+            "median_package_lpa": 7.13,
+            "highest_package_lpa": 22.5,
+            "average_package_lpa": 8.21
+          },
+          {
+            "branch_name": "Data Science and Artificial Intelligence",
+            "placement_ratio_percentage": 81.4,
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 12.49
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 42.22,
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 25.0,
+            "average_package_lpa": 9.59
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 63.48,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 35.0,
+            "average_package_lpa": 11.97
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 39.39,
+            "median_package_lpa": 12.47,
+            "highest_package_lpa": 17.5,
+            "average_package_lpa": 11.43
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 77.78,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 26.0,
+            "average_package_lpa": 8.5
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 71.43,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 25.0,
+            "average_package_lpa": 8.5
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIIT-Dharwad-Logo.png"
+    },
+    "campus_area": "60 Acres",
+    "location": "IIIT Dharwad, Ittigatti Road, Near Sattur Colony, Dharwad, Karnataka 580009",
+    "description": "An Institute of National Importance set up in 2015 under the PPP mode. IIIT Dharwad focuses heavily on Data Science, AI, and Electronics.",
+    "highlights": [
+      "Located in the educational and cultural hub of Karnataka",
+      "Newly inaugurated, highly equipped 60-acre permanent campus",
+      "Highest package around 35 LPA with strong core tech recruitment",
+      "Unique specialized programs in Data Science and AI"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 120000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_id": "iiit-vadodara",
+    "institute_name": "Indian Institute of Information Technology, Vadodara",
+    "short_name": "IIIT Vadodara",
+    "college_type": "IIIT",
+    "establishment_year": 2013,
+    "state": "Gujarat",
+    "placements": {
+      "overall": {
+        "2022": {
+          "placement_ratio_percentage": 100.0
+        },
+        "2020": {
+          "placement_ratio_percentage": 100.0
+        }
+      },
+      "branch_wise": {
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 100.0
+          }
+        ],
+        "2020": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 100.0
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2016/10/IIIT-Vadodara-Logo.png"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Vadodara, Block No 9, Government Engineering College, Sector 28, Gandhinagar, Gujarat 382028",
+    "description": "Established in 2013 under the PPP mode, IIIT Vadodara currently operates from Gandhinagar and focuses on deep computer science fundamentals and high-end IT research.",
+    "highlights": [
+      "Exceptional placements with the highest package reaching 43.5 LPA",
+      "Strong coding culture and achievements in global hackathons",
+      "Mentored continuously by leading tech conglomerates like TCS",
+      "Permanent 50-acre campus under construction in Dumad, Vadodara"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_id": "iiit-kota",
+    "institute_name": "Indian Institute of Information Technology, Kota",
+    "short_name": "IIIT Kota",
+    "college_type": "IIIT",
+    "establishment_year": 2013,
+    "state": "Rajasthan",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 75.93,
+          "median_package_lpa": 10.0,
+          "highest_package_lpa": 65.0,
+          "average_package_lpa": 13.09
+        },
+        "2023": {
+          "placement_ratio_percentage": 83.01,
+          "median_package_lpa": 12.5,
+          "highest_package_lpa": 53.6,
+          "average_package_lpa": 14.6
+        },
+        "2022": {
+          "placement_ratio_percentage": 92.09,
+          "median_package_lpa": 13.5,
+          "highest_package_lpa": 81.0,
+          "average_package_lpa": 14.37
+        },
+        "2021": {
+          "placement_ratio_percentage": 94.87,
+          "average_package_lpa": 9.0,
+          "highest_package_lpa": 43.0
+        },
+        "2020": {
+          "placement_ratio_percentage": 90.79,
+          "average_package_lpa": 10.42,
+          "highest_package_lpa": 29.0
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 77.06,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 65.0,
+            "average_package_lpa": 13.39
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 73.58,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 53.6,
+            "average_package_lpa": 12.41
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 84.68,
+            "median_package_lpa": 13.75,
+            "highest_package_lpa": 53.6,
+            "average_package_lpa": 15.76
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 78.57,
+            "median_package_lpa": 8.5,
+            "highest_package_lpa": 25.0,
+            "average_package_lpa": 11.31
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 94.85,
+            "median_package_lpa": 13.5,
+            "highest_package_lpa": 81.0,
+            "average_package_lpa": 15.25
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 85.71,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 61.0,
+            "average_package_lpa": 12.37
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 95.65,
+            "average_package_lpa": 10.6,
+            "highest_package_lpa": 43.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 93.75,
+            "average_package_lpa": 7.4,
+            "highest_package_lpa": 15.5
+          }
+        ],
+        "2020": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 95.0,
+            "average_package_lpa": 11.7,
+            "highest_package_lpa": 29.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 86.11,
+            "average_package_lpa": 8.86,
+            "highest_package_lpa": 29.0
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2020/08/IIIT-Kota-Logo.png"
+    },
+    "campus_area": "100 Acres",
+    "location": "IIIT Kota, MNIT Jaipur Campus, JLN Marg, Jaipur, Rajasthan 302017",
+    "description": "Initiated in 2013 under the PPP model, IIIT Kota initially operated out of MNIT Jaipur and is transitioning to its massive permanent campus in Ranpur, Kota.",
+    "highlights": [
+      "Strong mentoring from MNIT Jaipur ensuring top-tier academic delivery",
+      "Highest package of over 82 LPA in recent placement cycles",
+      "Excellent average package hovering around 14.6 LPA",
+      "Spacious 100-acre new campus equipped with modern infrastructure"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_id": "iiit-kottayam",
+    "institute_name": "Indian Institute of Information Technology, Kottayam",
+    "short_name": "IIIT Kottayam",
+    "college_type": "IIIT",
+    "establishment_year": 2015,
+    "state": "Kerala",
+    "placements": {
+      "overall": {},
+      "branch_wise": {}
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2016/10/IIIT-Kottayam-logo.jpg"
+    },
+    "campus_area": "53 Acres",
+    "location": "IIIT Kottayam, Valavoor, Pala, Kerala 686635",
+    "description": "Located in the lush green environment of Kerala, IIIT Kottayam was established in 2015 under the PPP format and boasts high-tech campus facilities.",
+    "highlights": [
+      "Beautiful 53-acre permanent campus surrounded by nature",
+      "Excellent cloud computing and cybersecurity focus",
+      "High placement rates with maximum packages touching 58 LPA",
+      "Collaborations with foreign universities for academic exchange"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_id": "iiit-ranchi",
+    "institute_name": "Indian Institute of Information Technology, Ranchi",
+    "short_name": "IIIT Ranchi",
+    "college_type": "IIIT",
+    "establishment_year": 2016,
+    "state": "Jharkhand",
+    "placements": {
+      "overall": {
+        "2023": {
+          "placement_ratio_percentage": 88.79,
+          "median_package_lpa": 13.32,
+          "highest_package_lpa": 83.38,
+          "average_package_lpa": 16.7
+        },
+        "2022": {
+          "placement_ratio_percentage": 87.95
+        },
+        "2021": {
+          "placement_ratio_percentage": 57.45
+        },
+        "2020": {
+          "highest_package_lpa": 12.4,
+          "average_package_lpa": 6.9
+        }
+      },
+      "branch_wise": {
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 90.16,
+            "median_package_lpa": 13.32,
+            "highest_package_lpa": 83.38,
+            "average_package_lpa": 17.01
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 86.96,
+            "median_package_lpa": 13.32,
+            "highest_package_lpa": 46.38,
+            "average_package_lpa": 16.42
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 86.84
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 88.89
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 72.34
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 42.55
+          }
+        ],
+        "2020": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "highest_package_lpa": 12.0,
+            "average_package_lpa": 7.4
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "highest_package_lpa": 12.4,
+            "average_package_lpa": 6.26
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2016/10/IIIT-Ranchi-Logo.png"
+    },
+    "campus_area": "67 Acres",
+    "location": "IIIT Ranchi, ARTTC BSNL Campus, Ranchi, Jharkhand 835217",
+    "description": "Established in 2016 under the PPP model, IIIT Ranchi works aggressively towards IT research and development from its temporary and newly developing facilities.",
+    "highlights": [
+      "Mentored continuously by NIT Jamshedpur and IIIT Allahabad historically",
+      "Highest salary offered went up to 46 LPA recently",
+      "Strong coding clubs and active technical student chapters",
+      "Permanent campus of 67 acres is actively being built"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_id": "iiit-sonepat",
+    "institute_name": "Indian Institute of Information Technology, Sonepat",
+    "short_name": "IIIT Sonepat",
+    "college_type": "IIIT",
+    "establishment_year": 2014,
+    "state": "Haryana",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 64.77,
+          "median_package_lpa": 12.0,
+          "highest_package_lpa": 40.0,
+          "average_package_lpa": 15.87
+        },
+        "2023": {
+          "placement_ratio_percentage": 79.59,
+          "median_package_lpa": 8.6,
+          "highest_package_lpa": 52.0,
+          "average_package_lpa": 16.51
+        },
+        "2022": {
+          "placement_ratio_percentage": 69.44,
+          "median_package_lpa": 11.5,
+          "highest_package_lpa": 50.59,
+          "average_package_lpa": 13.39
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 70.73,
+            "median_package_lpa": 10.3,
+            "highest_package_lpa": 40.0,
+            "average_package_lpa": 13.88
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 59.57,
+            "median_package_lpa": 13.0,
+            "highest_package_lpa": 40.0,
+            "average_package_lpa": 17.87
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 85.11,
+            "median_package_lpa": 8.6,
+            "highest_package_lpa": 52.0,
+            "average_package_lpa": 15.43
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 74.51,
+            "median_package_lpa": 8.6,
+            "highest_package_lpa": 47.0,
+            "average_package_lpa": 17.83
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 86.36,
+            "median_package_lpa": 12.0,
+            "highest_package_lpa": 19.34,
+            "average_package_lpa": 13.12
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 50.0,
+            "median_package_lpa": 10.25,
+            "highest_package_lpa": 50.59,
+            "average_package_lpa": 14.26
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 73.08,
+            "median_package_lpa": 12.25,
+            "highest_package_lpa": 20.0,
+            "average_package_lpa": 12.79
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2019/06/IIIT-Sonepat-Logo.png"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Sonepat, SBIT Campus, Pallri, Sonepat, Haryana 131021",
+    "description": "Established in 2014 under the PPP model, IIIT Sonepat is strategically located near the National Capital Region (NCR), affording students excellent corporate accessibility.",
+    "highlights": [
+      "Stellar placements with the highest package reaching 52 LPA",
+      "Proximity to the Delhi-NCR tech and corporate ecosystem",
+      "Mentored historically by NIT Kurukshetra",
+      "Developing a new 50-acre permanent campus"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_id": "iiit-trichy",
+    "institute_name": "Indian Institute of Information Technology, Tiruchirapalli",
+    "short_name": "IIIT Trichy",
+    "college_type": "IIIT",
+    "establishment_year": 2013,
+    "state": "Tamil Nadu",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "median_package_lpa": 7.0,
+          "highest_package_lpa": 46.0,
+          "average_package_lpa": 10.0
+        },
+        "2023": {
+          "placement_ratio_percentage": 81.82,
+          "median_package_lpa": 8.45,
+          "highest_package_lpa": 20.0,
+          "average_package_lpa": 9.85
+        },
+        "2022": {
+          "placement_ratio_percentage": 93.55,
+          "median_package_lpa": 7.5,
+          "highest_package_lpa": 12.0,
+          "average_package_lpa": 7.67
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "median_package_lpa": 7.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 12.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 10.0,
+            "average_package_lpa": 7.0
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 88.89,
+            "median_package_lpa": 8.9,
+            "highest_package_lpa": 20.0,
+            "average_package_lpa": 10.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 73.33,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 15.0,
+            "average_package_lpa": 9.7
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 93.75,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 12.0,
+            "average_package_lpa": 7.92
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 93.33,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 12.0,
+            "average_package_lpa": 7.41
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2017/07/IIIT-Srirangam-Logo.png"
+    },
+    "campus_area": "56 Acres",
+    "location": "IIIT Tiruchirappalli, Sethurappatti, Tiruchirappalli, Tamil Nadu 620012",
+    "description": "An Institute of National Importance under the PPP model, IIIT Trichy focuses on core IT disciplines and operates from its dedicated campus in Sethurappatti.",
+    "highlights": [
+      "Mentored heavily by NIT Trichy during its foundational years",
+      "Growing placement cell with highest packages crossing 27 LPA",
+      "Rapidly developing 56-acre permanent campus",
+      "Vibrant student community engaging in numerous national technical fests"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_id": "iiit-una",
+    "institute_name": "Indian Institute of Information Technology, Una",
+    "short_name": "IIIT Una",
+    "college_type": "IIIT",
+    "establishment_year": 2014,
+    "state": "Himachal Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 82.95,
+          "highest_package_lpa": 30.0,
+          "average_package_lpa": 11.02
+        },
+        "2024": {
+          "placement_ratio_percentage": 62.79,
+          "median_package_lpa": 8.0,
+          "highest_package_lpa": 32.0,
+          "average_package_lpa": 9.36
+        },
+        "2023": {
+          "placement_ratio_percentage": 86.29,
+          "median_package_lpa": 9.0,
+          "highest_package_lpa": 51.0,
+          "average_package_lpa": 14.14
+        },
+        "2022": {
+          "placement_ratio_percentage": 88.89,
+          "median_package_lpa": 9.03,
+          "highest_package_lpa": 25.5,
+          "average_package_lpa": 11.86
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 87.8,
+            "highest_package_lpa": 30.0,
+            "average_package_lpa": 12.38
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 83.33,
+            "highest_package_lpa": 30.0,
+            "average_package_lpa": 9.9
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 73.91,
+            "highest_package_lpa": 30.0,
+            "average_package_lpa": 10.79
+          }
+        ],
+        "2024": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 60.34,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 32.0,
+            "average_package_lpa": 10.44
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 60.46,
+            "median_package_lpa": 9.25,
+            "highest_package_lpa": 25.0,
+            "average_package_lpa": 8.49
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 71.42,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 19.0,
+            "average_package_lpa": 9.15
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 87.04,
+            "median_package_lpa": 9.5,
+            "highest_package_lpa": 46.5,
+            "average_package_lpa": 12.06
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 83.33,
+            "median_package_lpa": 8.5,
+            "highest_package_lpa": 60.0,
+            "average_package_lpa": 13.79
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 89.29,
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 46.5,
+            "average_package_lpa": 16.57
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 93.62,
+            "median_package_lpa": 9.5,
+            "highest_package_lpa": 25.5,
+            "average_package_lpa": 12.28
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 83.33,
+            "median_package_lpa": 7.6,
+            "highest_package_lpa": 25.5,
+            "average_package_lpa": 10.5
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 89.29,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 16.6,
+            "average_package_lpa": 12.8
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png"
+    },
+    "campus_area": "54 Acres",
+    "location": "IIIT Una, Saloh, Una, Himachal Pradesh 177209",
+    "description": "Established under the PPP model in 2014, IIIT Una operates from its scenic permanent campus in Himachal Pradesh, providing quality IT education.",
+    "highlights": [
+      "Highest placement package of over 60 LPA in recent records",
+      "State-of-the-art permanent campus in Saloh spread over 54 acres",
+      "Fast-growing IT hub in the pristine environment of Himachal Pradesh",
+      "Highly skilled faculty pool prioritizing research and development"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 105000,
+      "overall_rough_estimate_4_years": 1150000
+    }
+  },
+  {
+    "institute_id": "iiit-surat",
+    "institute_name": "Indian Institute of Information Technology, Surat",
+    "short_name": "IIIT Surat",
+    "college_type": "IIIT",
+    "establishment_year": 2017,
+    "state": "Gujarat",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 70.25,
+          "median_package_lpa": 9.0,
+          "highest_package_lpa": 74.0,
+          "average_package_lpa": 13.99
+        },
+        "2024": {
+          "placement_ratio_percentage": 65.79,
+          "median_package_lpa": 11.75,
+          "highest_package_lpa": 64.0,
+          "average_package_lpa": 12.92
+        },
+        "2023": {
+          "placement_ratio_percentage": 65.45,
+          "median_package_lpa": 9.17,
+          "highest_package_lpa": 24.09,
+          "average_package_lpa": 12.04
+        },
+        "2022": {
+          "placement_ratio_percentage": 87.63,
+          "median_package_lpa": 11.26,
+          "highest_package_lpa": 46.0,
+          "average_package_lpa": 15.19
+        },
+        "2021": {
+          "placement_ratio_percentage": 68.75,
+          "highest_package_lpa": 41.0,
+          "average_package_lpa": 9.48
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 78.46,
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 74.0,
+            "average_package_lpa": 14.42
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 60.71,
+            "median_package_lpa": 9.5,
+            "highest_package_lpa": 40.0,
+            "average_package_lpa": 13.35
+          }
+        ],
+        "2024": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 63.41,
+            "median_package_lpa": 11.75,
+            "highest_package_lpa": 64.0,
+            "average_package_lpa": 13.75
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 68.57,
+            "median_package_lpa": 11.75,
+            "highest_package_lpa": 24.0,
+            "average_package_lpa": 12.03
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 75.44,
+            "median_package_lpa": 10.47,
+            "highest_package_lpa": 24.19,
+            "average_package_lpa": 14.21
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 54.72,
+            "median_package_lpa": 7.87,
+            "highest_package_lpa": 24.0,
+            "average_package_lpa": 9.87
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 93.75,
+            "median_package_lpa": 12.52,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 16.85
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 81.63,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 13.52
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 72.97,
+            "highest_package_lpa": 34.0,
+            "average_package_lpa": 9.18
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 62.96,
+            "highest_package_lpa": 41.0,
+            "average_package_lpa": 9.77
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2017/06/IIIT-Surat-Logo.jpg"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Surat, SVNIT Campus, Ichchhanath, Surat, Gujarat 395007",
+    "description": "Founded in 2017, IIIT Surat is a PPP initiative rapidly making a mark through its comprehensive Computer Science and Electronics programs.",
+    "highlights": [
+      "Mentored deeply by SVNIT Surat, ensuring high academic standards",
+      "Highest package achieved of 44 LPA with impressive average yields",
+      "Located in the fast-growing economic hub of Surat, Gujarat",
+      "Focused learning with a smaller batch size allowing better mentoring"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 75000,
+      "overall_rough_estimate_4_years": 900000
+    }
+  },
+  {
+    "institute_id": "iiit-bhagalpur",
+    "institute_name": "Indian Institute of Information Technology, Bhagalpur",
+    "short_name": "IIIT Bhagalpur",
+    "college_type": "IIIT",
+    "establishment_year": 2017,
+    "state": "Bihar",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "median_package_lpa": 7.33,
+          "highest_package_lpa": 39.0,
+          "average_package_lpa": 7.65
+        },
+        "2023": {
+          "placement_ratio_percentage": 95.24,
+          "median_package_lpa": 10.0,
+          "highest_package_lpa": 46.0,
+          "average_package_lpa": 14.43
+        },
+        "2022": {
+          "placement_ratio_percentage": 92.1,
+          "median_package_lpa": 11.0,
+          "highest_package_lpa": 46.0,
+          "average_package_lpa": 12.0
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 39.0,
+            "average_package_lpa": 11.17
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 20.0,
+            "average_package_lpa": 7.16
+          },
+          {
+            "branch_name": "Mechatronics and Automation",
+            "median_package_lpa": 5.5,
+            "highest_package_lpa": 9.0,
+            "average_package_lpa": 4.62
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 96.97,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 14.11
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 95.65,
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 15.91
+          },
+          {
+            "branch_name": "Mechatronics Engineering",
+            "placement_ratio_percentage": 85.71,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 19.6,
+            "average_package_lpa": 11.21
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 93.62,
+            "median_package_lpa": 12.0,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 12.48
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 96.97,
+            "median_package_lpa": 9.0,
+            "highest_package_lpa": 23.5,
+            "average_package_lpa": 11.06
+          },
+          {
+            "branch_name": "Mechatronics Engineering",
+            "placement_ratio_percentage": 85.71,
+            "median_package_lpa": 7.5,
+            "highest_package_lpa": 14.0,
+            "average_package_lpa": 9.22
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2017/06/IIIT-Bhagalpur-Logo.png"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Bhagalpur, BCE Campus, Sabour, Bhagalpur, Bihar 813210",
+    "description": "Started in 2017 under the PPP model, IIIT Bhagalpur is an emerging IT institute in Bihar, uniquely offering Mechatronics alongside CSE and ECE.",
+    "highlights": [
+      "Unique B.Tech program in Mechatronics Engineering",
+      "Mentored actively by IIT Guwahati in its early stages",
+      "Placements showing strong upward trends with packages over 39 LPA",
+      "Operating from its fully functional campus inside BCE Bhagalpur"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 95000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_id": "iiit-bhopal",
+    "institute_name": "Indian Institute of Information Technology, Bhopal",
+    "short_name": "IIIT Bhopal",
+    "college_type": "IIIT",
+    "establishment_year": 2017,
+    "state": "Madhya Pradesh",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 84.44,
+          "average_package_lpa": 12.32
+        },
+        "2023": {
+          "placement_ratio_percentage": 99.26,
+          "median_package_lpa": 10.83,
+          "highest_package_lpa": 60.0,
+          "average_package_lpa": 20.51
+        },
+        "2022": {
+          "placement_ratio_percentage": 89.57,
+          "median_package_lpa": 9.13,
+          "highest_package_lpa": 85.0,
+          "average_package_lpa": 14.5
+        },
+        "2021": {
+          "placement_ratio_percentage": 72.83,
+          "highest_package_lpa": 26.0,
+          "average_package_lpa": 9.26
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 88.68,
+            "average_package_lpa": 15.07
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 86.67,
+            "average_package_lpa": 10.53
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 78.85,
+            "average_package_lpa": 11.36
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 12.0,
+            "highest_package_lpa": 60.0,
+            "average_package_lpa": 22.56
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 96.67,
+            "median_package_lpa": 8.5,
+            "highest_package_lpa": 52.0,
+            "average_package_lpa": 18.03
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 100.0,
+            "median_package_lpa": 12.0,
+            "highest_package_lpa": 45.5,
+            "average_package_lpa": 23.42
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 98.0,
+            "median_package_lpa": 10.07,
+            "highest_package_lpa": 85.0,
+            "average_package_lpa": 14.18
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 74.19,
+            "median_package_lpa": 7.25,
+            "highest_package_lpa": 14.5,
+            "average_package_lpa": 9.34
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 91.18,
+            "median_package_lpa": 10.07,
+            "highest_package_lpa": 46.0,
+            "average_package_lpa": 16.06
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 76.32,
+            "highest_package_lpa": 20.0,
+            "average_package_lpa": 9.25
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 51.85,
+            "highest_package_lpa": 26.0,
+            "average_package_lpa": 8.23
+          },
+          {
+            "branch_name": "Information Technology",
+            "placement_ratio_percentage": 88.89,
+            "highest_package_lpa": 24.0,
+            "average_package_lpa": 10.3
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2017/06/IIIT-Bhopal-Logo.png"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Bhopal, MANIT Campus, Bhopal, Madhya Pradesh 462003",
+    "description": "Operating since 2017 under the PPP model, IIIT Bhopal has quickly risen through the ranks with exceptional coding environments and placement stats.",
+    "highlights": [
+      "Highest package reaching 85 LPA in top tier firms",
+      "Mentored by MANIT Bhopal providing access to excellent resources",
+      "Very competitive coding culture and strong alumni network",
+      "Permanent 50-acre campus allotted and under process"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_id": "iiit-agartala",
+    "institute_name": "Indian Institute of Information Technology, Agartala",
+    "short_name": "IIIT Agartala",
+    "college_type": "IIIT",
+    "establishment_year": 2018,
+    "state": "Tripura",
+    "placements": {
+      "overall": {},
+      "branch_wise": {}
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2018/07/IIIT-Agartala-Logo.png"
+    },
+    "campus_area": "52 Acres",
+    "location": "IIIT Agartala, NIT Agartala Campus, Jirania, Tripura 799046",
+    "description": "A promising PPP model institute founded in 2018, IIIT Agartala shares resources with NIT Agartala and has seen breakthrough international placements.",
+    "highlights": [
+      "Record-breaking international package of over 1.15 Cr in recent years",
+      "Leverages the vast infrastructure and labs of NIT Agartala",
+      "Focused predominantly on Computer Science and emerging tech",
+      "Permanent campus spanning 52 acres in the pipeline"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_id": "iiit-raichur",
+    "institute_name": "Indian Institute of Information Technology, Raichur",
+    "short_name": "IIIT Raichur",
+    "college_type": "IIIT",
+    "establishment_year": 2019,
+    "state": "Karnataka",
+    "placements": {
+      "overall": {},
+      "branch_wise": {}
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2020/05/IIIT-Raichur-Logo.png"
+    },
+    "campus_area": "60 Acres",
+    "location": "IIIT Raichur, Government Engineering College Campus, Raichur, Karnataka 584133",
+    "description": "One of the newest IIITs established in 2019 under the PPP model, mentored exceptionally by IIT Hyderabad to ensure premium academic quality.",
+    "highlights": [
+      "Direct mentorship and faculty support from IIT Hyderabad",
+      "Rapidly developing infrastructure and robust academic curriculum",
+      "Excellent early placement records due to IIT-H network",
+      "Focused purely on Computer Science and Mathematics/Computing"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_id": "iiit-kalyani",
+    "institute_name": "Indian Institute of Information Technology, Kalyani",
+    "short_name": "IIIT Kalyani",
+    "college_type": "IIIT",
+    "establishment_year": 2014,
+    "state": "West Bengal",
+    "placements": {
+      "overall": {},
+      "branch_wise": {}
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIIT-Kalyani-logo.jpeg"
+    },
+    "campus_area": "50 Acres",
+    "location": "IIIT Kalyani, WEBEL IT Park, Kalyani, West Bengal 741235",
+    "description": "A PPP-mode institute established in West Bengal, IIIT Kalyani bridges the gap between academic research and industry demands in the realm of Information Technology.",
+    "highlights": [
+      "Rapidly growing placement rate with top tech giants visiting annually",
+      "Focus on disruptive technologies like AI, IoT, and Machine Learning",
+      "Operating dynamically from the WEBEL IT Park",
+      "Permanent 50-acre campus infrastructure underway"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_id": "iiit-guwahati",
+    "institute_name": "Indian Institute of Information Technology, Guwahati",
+    "short_name": "IIIT Guwahati",
+    "college_type": "IIIT",
+    "establishment_year": 2013,
+    "state": "Assam",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 58.23,
+          "median_package_lpa": 13.65,
+          "highest_package_lpa": 52.0,
+          "average_package_lpa": 14.88
+        },
+        "2023": {
+          "placement_ratio_percentage": 89.19,
+          "median_package_lpa": 14.0,
+          "highest_package_lpa": 120.0,
+          "average_package_lpa": 15.5
+        },
+        "2022": {
+          "placement_ratio_percentage": 95.12,
+          "median_package_lpa": 14.0,
+          "highest_package_lpa": 61.5,
+          "average_package_lpa": 15.34
+        },
+        "2021": {
+          "placement_ratio_percentage": 80.33,
+          "average_package_lpa": 10.13,
+          "highest_package_lpa": 32.0
+        },
+        "2020": {
+          "placement_ratio_percentage": 75.56,
+          "average_package_lpa": 10.2,
+          "highest_package_lpa": 17.0
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 62.6,
+            "median_package_lpa": 13.65,
+            "highest_package_lpa": 52.0,
+            "average_package_lpa": 15.26
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 42.86,
+            "median_package_lpa": 13.65,
+            "highest_package_lpa": 28.0,
+            "average_package_lpa": 13.1
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 92.59,
+            "median_package_lpa": 14.5,
+            "highest_package_lpa": 120.0,
+            "average_package_lpa": 17.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 80.0,
+            "median_package_lpa": 10.0,
+            "highest_package_lpa": 37.0,
+            "average_package_lpa": 11.0
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 98.04,
+            "median_package_lpa": 16.2,
+            "highest_package_lpa": 61.5,
+            "average_package_lpa": 17.76
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 90.32,
+            "median_package_lpa": 8.5,
+            "highest_package_lpa": 32.0,
+            "average_package_lpa": 10.67
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 87.5,
+            "average_package_lpa": 11.59,
+            "highest_package_lpa": 32.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 66.67,
+            "average_package_lpa": 6.48,
+            "highest_package_lpa": 9.0
+          }
+        ],
+        "2020": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 88.0,
+            "average_package_lpa": 11.0,
+            "highest_package_lpa": 17.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 60.0,
+            "average_package_lpa": 8.1,
+            "highest_package_lpa": 12.0
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2016/10/IIIT-Guwahati-Logo.png"
+    },
+    "campus_area": "67 Acres",
+    "location": "IIIT Guwahati, Bongora, Assam 781015",
+    "description": "Set up in 2013 under the PPP model, IIIT Guwahati is a fast-growing institute in Northeast India recognized for its emphasis on research and technical proficiency.",
+    "highlights": [
+      "Rank Band 101-150 in Engineering by NIRF 2023",
+      "Highest salary package of 1.20 Cr in recent placements",
+      "State-of-the-art permanent campus spanning 67 acres near the airport",
+      "High faculty-to-student ratio ensuring personalized academic attention"
+    ],
+    "rankings": {
+      "nirf_engineering": "Rank Band 101-150",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 125000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_id": "iiit-manipur",
+    "institute_name": "Indian Institute of Information Technology, Manipur",
+    "short_name": "IIIT Manipur",
+    "college_type": "IIIT",
+    "establishment_year": 2015,
+    "state": "Manipur",
+    "placements": {
+      "overall": {
+        "Latest": {
+          "placement_ratio_percentage": 76.19,
+          "median_package_lpa": 7.85,
+          "highest_package_lpa": 40.0,
+          "average_package_lpa": 8.54
+        },
+        "2023": {
+          "placement_ratio_percentage": 81.48
+        },
+        "2022": {
+          "placement_ratio_percentage": 100.0
+        },
+        "2021": {
+          "placement_ratio_percentage": 79.31,
+          "highest_package_lpa": 9.0
+        }
+      },
+      "branch_wise": {
+        "Latest": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 84.0,
+            "median_package_lpa": 8.0,
+            "highest_package_lpa": 40.0,
+            "average_package_lpa": 8.83
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 64.71,
+            "median_package_lpa": 7.7,
+            "highest_package_lpa": 8.8,
+            "average_package_lpa": 8.25
+          }
+        ],
+        "2023": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 82.35
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 80.0
+          }
+        ],
+        "2022": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 100.0
+          }
+        ],
+        "2021": [
+          {
+            "branch_name": "Computer Science and Engineering",
+            "placement_ratio_percentage": 100.0,
+            "highest_package_lpa": 9.0
+          },
+          {
+            "branch_name": "Electronics and Communication Engineering",
+            "placement_ratio_percentage": 50.0,
+            "highest_package_lpa": 8.0
+          }
+        ]
+      }
+    },
+    "media": {
+      "logo_url": "https://img.collegepravesh.com/2015/11/IIIT-Manipur-Logo.png"
+    },
+    "campus_area": "150 Acres",
+    "location": "IIIT Manipur, Mantripukhri, Imphal, Manipur 795002",
+    "description": "An Institute of National Importance established in 2015 under the PPP mode to foster IT growth and technical manpower in the North-Eastern region.",
+    "highlights": [
+      "Promotes technical growth in the scenic Northeast of India",
+      "Offers niche core IT and VLSI engineering disciplines",
+      "Small batch size leading to an excellent student-teacher ratio",
+      "Massive 150-acre permanent campus under development in Senapati"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_id": "iiit-hyderabad",
+    "institute_name": "International Institute of Information Technology Hyderabad",
+    "short_name": "IIIT Hyderabad",
+    "college_type": "IIIT",
+    "establishment_year": null,
+    "state": "Hyderabad",
+    "campus_area": "66 Acres",
+    "location": "IIIT Hyderabad, Gachibowli, Hyderabad, Telangana 500032",
+    "description": "Established in 1998 as a non-profit PPP, IIIT Hyderabad is widely considered the best IIIT in India, renowned globally for its cutting-edge research in AI, Robotics, and Computer Science.",
+    "highlights": [
+      "Ranked #55 in Engineering by NIRF 2023",
+      "Exceptional placements with the highest package of 1.28 Cr and avg of 32 LPA",
+      "India's finest research facilities in AI, CVIT, and NLP",
+      "Highly competitive admission through UGEE and JEE Main portals"
+    ],
+    "rankings": {
+      "nirf_engineering": 55,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 225000,
+      "overall_rough_estimate_4_years": 2200000
+    },
+    "placements": {},
+    "media": {
+      "logo_url": ""
+    }
+  },
+  {
+    "institute_id": "iiit-bangalore",
+    "institute_name": "International Institute of Information Technology Bangalore",
+    "short_name": "IIIT Bangalore",
+    "college_type": "IIIT",
+    "establishment_year": null,
+    "state": "Bengaluru",
+    "campus_area": "9 Acres",
+    "location": "IIIT Bangalore, 26/C, Electronics City, Hosur Road, Bengaluru, Karnataka 560100",
+    "description": "Established in 1999 as a Deemed University, IIIT Bangalore is a top-tier autonomous institute located in India's Silicon Valley, famous for its Integrated M.Tech programs.",
+    "highlights": [
+      "Ranked #74 in Engineering by NIRF 2023",
+      "Situated in the heart of Electronics City, Bengaluru",
+      "World-class integrated M.Tech placements with averages over 30 LPA",
+      "Intense focus on post-graduate research and software engineering"
+    ],
+    "rankings": {
+      "nirf_engineering": 74,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 250000,
+      "overall_rough_estimate_4_years": 2400000
+    },
+    "placements": {},
+    "media": {
+      "logo_url": ""
+    }
+  },
+  {
+    "institute_id": "iiit-nayaraipur",
+    "institute_name": "Dr. SPM International Institute of Information Technology Naya Raipur",
+    "short_name": "IIIT Naya Raipur",
+    "college_type": "IIIT",
+    "establishment_year": null,
+    "state": "Naya Raipur",
+    "campus_area": "50 Acres",
+    "location": "IIIT Naya Raipur, Plot No. 7, Sector 24, Near Purkhouti Muktangan, Atal Nagar, Naya Raipur, Chhattisgarh 493661",
+    "description": "A State University established as a joint venture between the Govt of Chhattisgarh and NTPC. It boasts phenomenal infrastructure and highly specialized tech programs.",
+    "highlights": [
+      "Fully residential 50-acre digital campus in Atal Nagar",
+      "Emerging as a premier tech institute with top packages crossing 43 LPA",
+      "Strong collaborations with academia and industry for Data Science",
+      "Features specific reservations and scholarships for NTPC wards and state residents"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    },
+    "placements": {},
+    "media": {
+      "logo_url": ""
+    }
+  },
+  {
+    "institute_id": "iiit-bhubaneswar",
+    "institute_name": "International Institute of Information Technology Bhubaneswar",
+    "short_name": "IIIT Bhubaneswar",
+    "college_type": "IIIT",
+    "establishment_year": null,
+    "state": "Bhubaneswar",
+    "campus_area": "50 Acres",
+    "location": "IIIT Bhubaneswar, Gothapatna, PO: Malipada, Bhubaneswar, Odisha 751003",
+    "description": "Founded by the Government of Odisha in 2006, it functions as a unitary university. IIIT Bhubaneswar provides an excellent blend of engineering, science, and humanities.",
+    "highlights": [
+      "Well-established alumni network and good core placements",
+      "Admissions primarily through JEE Main via JoSAA and State counselling",
+      "Lush green 50-acre campus near the capital city of Odisha",
+      "Highest package extending to 39 LPA with a solid median placement"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    },
+    "placements": {},
+    "media": {
+      "logo_url": ""
+    }
+  }
+]

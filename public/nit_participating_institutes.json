@@ -1,0 +1,258 @@
+[
+    {
+        "institute_name": "National Institute of Technology Tiruchirappalli",
+        "nirf_ranking_engineering": 9,
+        "nirf_ranking_overall": 31,
+        "average_package_lpa": 15.7,
+        "highest_package_lpa": 52.89,
+        "logo_base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAIAAACzY+a1AAArM0lEQVR4nO2deXwU1f3HP7PZ3d0kJCEhIYSQhITQe0A4CCpNwTq0aP0QWq2i1g9RrVpr1Vq1tba1WqvVWrVaq7XWqvWqtVqt1mq1Vqu1WqvVahWqVQ+gH1EUkJCQhIQk5/f7Y2dnJjOTk5l9v8zvPzM7s7M7M7MzM7M7P8/3n8z0zszszM7P7m5l6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV6vV7+H8Aq5b6J7l8f6gAAAABJRU5ErkJggg=="
+    },
+    {
+        "institute_name": "National Institute of Technology Karnataka, Surathkal",
+        "nirf_ranking_engineering": 17,
+        "nirf_ranking_overall": 38,
+        "average_package_lpa": 18.26,
+        "highest_package_lpa": 54.75,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Rourkela",
+        "nirf_ranking_engineering": 19,
+        "nirf_ranking_overall": 34,
+        "average_package_lpa": 12.89,
+        "highest_package_lpa": 52.89,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Warangal",
+        "nirf_ranking_engineering": 21,
+        "nirf_ranking_overall": 51,
+        "average_package_lpa": 17.29,
+        "highest_package_lpa": 88.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Calicut",
+        "nirf_ranking_engineering": 25,
+        "nirf_ranking_overall": 60,
+        "average_package_lpa": 14.29,
+        "highest_package_lpa": 50.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Visvesvaraya National Institute of Technology, Nagpur",
+        "nirf_ranking_engineering": 39,
+        "nirf_ranking_overall": 74,
+        "average_package_lpa": 11.5,
+        "highest_package_lpa": 64.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Silchar",
+        "nirf_ranking_engineering": 40,
+        "nirf_ranking_overall": 92,
+        "average_package_lpa": 13.58,
+        "highest_package_lpa": 52.89,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Malaviya National Institute of Technology Jaipur",
+        "nirf_ranking_engineering": 43,
+        "nirf_ranking_overall": 70,
+        "average_package_lpa": 13.2,
+        "highest_package_lpa": 64.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Durgapur",
+        "nirf_ranking_engineering": 44,
+        "nirf_ranking_overall": 89,
+        "average_package_lpa": 11.54,
+        "highest_package_lpa": 70.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Delhi",
+        "nirf_ranking_engineering": 45,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 17.72,
+        "highest_package_lpa": 82.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "nirf_ranking_engineering": 42,
+        "nirf_ranking_overall": 87,
+        "average_package_lpa": 10.5,
+        "highest_package_lpa": 51.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Patna",
+        "nirf_ranking_engineering": 55,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 10.3,
+        "highest_package_lpa": 52.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Dr. B. R. Ambedkar National Institute of Technology Jalandhar",
+        "nirf_ranking_engineering": 58,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 12.44,
+        "highest_package_lpa": 51.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Sardar Vallabhbhai National Institute of Technology Surat",
+        "nirf_ranking_engineering": 59,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 10.5,
+        "highest_package_lpa": 48.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Motilal Nehru National Institute of Technology Allahabad",
+        "nirf_ranking_engineering": 60,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 14.28,
+        "highest_package_lpa": 135.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Meghalaya",
+        "nirf_ranking_engineering": 68,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 12.8,
+        "highest_package_lpa": 32.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Raipur",
+        "nirf_ranking_engineering": 71,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 10.1,
+        "highest_package_lpa": 55.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "Maulana Azad National Institute of Technology Bhopal",
+        "nirf_ranking_engineering": 72,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 11.55,
+        "highest_package_lpa": 82.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Srinagar",
+        "nirf_ranking_engineering": 79,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 10.5,
+        "highest_package_lpa": 36.5,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Kurukshetra",
+        "nirf_ranking_engineering": 81,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 14.16,
+        "highest_package_lpa": 62.75,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Agartala",
+        "nirf_ranking_engineering": 82,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 7.0,
+        "highest_package_lpa": 52.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Puducherry",
+        "nirf_ranking_engineering": 97,
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 10.5,
+        "highest_package_lpa": 24.7,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Hamirpur",
+        "nirf_ranking_engineering": "101-150",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 10.84,
+        "highest_package_lpa": 52.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Goa",
+        "nirf_ranking_engineering": "101-150",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 11.4,
+        "highest_package_lpa": 26.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Jamshedpur",
+        "nirf_ranking_engineering": "101-150",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 12.63,
+        "highest_package_lpa": 83.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Manipur",
+        "nirf_ranking_engineering": "101-150",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 9.5,
+        "highest_package_lpa": 47.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Mizoram",
+        "nirf_ranking_engineering": "101-150",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 8.5,
+        "highest_package_lpa": 17.3,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Nagaland",
+        "nirf_ranking_engineering": "151-200",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 9.0,
+        "highest_package_lpa": 16.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Sikkim",
+        "nirf_ranking_engineering": "151-200",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 8.0,
+        "highest_package_lpa": 26.4,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Arunachal Pradesh",
+        "nirf_ranking_engineering": "151-200",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 8.35,
+        "highest_package_lpa": 19.0,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Uttarakhand",
+        "nirf_ranking_engineering": "151-200",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 11.0,
+        "highest_package_lpa": 39.18,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    },
+    {
+        "institute_name": "National Institute of Technology Andhra Pradesh",
+        "nirf_ranking_engineering": "151-200",
+        "nirf_ranking_overall": null,
+        "average_package_lpa": 7.93,
+        "highest_package_lpa": 47.5,
+        "logo_base64": "data:image/png;base64,PLACEHOLDER"
+    }
+]

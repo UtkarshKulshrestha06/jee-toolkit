@@ -1,0 +1,84 @@
+# IIIT URLs for bulk scraping
+# Run: python excel/josaa/scrape_iiit.py --bulk excel/josaa/iiit_urls.txt
+# (from the project root: d:\CODE\Antigravity Stuff\jee-toolkit\)
+#
+# Mapped from JoSAA 2025 IIIT cutoff data (26 colleges)
+# ─────────────────────────────────────────────────────
+
+# Already scraped ✓
+https://www.collegepravesh.com/engineering-colleges/iiit-delhi/
+
+# ABV-IIITM Gwalior
+https://www.collegepravesh.com/engineering-colleges/abv-iiitm-gwalior/
+
+# IIIT Allahabad
+https://www.collegepravesh.com/engineering-colleges/iiit-allahabad/
+
+# IIIT Hyderabad
+https://www.collegepravesh.com/engineering-colleges/iiit-hyderabad/
+
+# IIIT Kancheepuram (IIITDM)
+https://www.collegepravesh.com/engineering-colleges/iiitdm-kancheepuram/
+
+# IIIT Jabalpur (IIITDMJ)
+https://www.collegepravesh.com/engineering-colleges/iiitdm-jabalpur/
+
+# IIIT Guwahati
+https://www.collegepravesh.com/engineering-colleges/iiit-guwahati/
+
+# IIIT Lucknow
+https://www.collegepravesh.com/engineering-colleges/iiit-lucknow/
+
+# IIIT Nagpur
+https://www.collegepravesh.com/engineering-colleges/iiit-nagpur/
+
+# IIIT Pune
+https://www.collegepravesh.com/engineering-colleges/iiit-pune/
+
+# IIIT Kota
+https://www.collegepravesh.com/engineering-colleges/iiit-kota/
+
+# IIIT Bhopal
+https://www.collegepravesh.com/engineering-colleges/iiit-bhopal/
+
+# IIIT Surat
+https://www.collegepravesh.com/engineering-colleges/iiit-surat/
+
+# IIIT Sri City
+https://www.collegepravesh.com/engineering-colleges/iiit-sri-city/
+
+# IIIT Vadodara
+https://www.collegepravesh.com/engineering-colleges/iiit-vadodara/
+
+# IIIT Tiruchirappalli
+https://www.collegepravesh.com/engineering-colleges/iiit-tiruchirappalli/
+
+# IIIT Kalyani
+https://www.collegepravesh.com/engineering-colleges/iiit-kalyani/
+
+# IIIT Una
+https://www.collegepravesh.com/engineering-colleges/iiit-una/
+
+# IIIT Bhagalpur
+https://www.collegepravesh.com/engineering-colleges/iiit-bhagalpur/
+
+# IIIT Dharwad
+https://www.collegepravesh.com/engineering-colleges/iiit-dharwad/
+
+# IIIT Kottayam
+https://www.collegepravesh.com/engineering-colleges/iiit-kottayam/
+
+# IIIT Ranchi
+https://www.collegepravesh.com/engineering-colleges/iiit-ranchi/
+
+# IIIT Sonepat (Kilohrad)
+https://www.collegepravesh.com/engineering-colleges/iiit-sonepat/
+
+# IIIT Kurnool
+https://www.collegepravesh.com/engineering-colleges/iiit-kurnool/
+
+# IIIT Manipur (Senapati)
+https://www.collegepravesh.com/engineering-colleges/iiit-manipur/
+
+# IIIT Agartala
+https://www.collegepravesh.com/engineering-colleges/iiit-agartala/

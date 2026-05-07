@@ -1,0 +1,632 @@
+[
+  {
+    "institute_name": "Indian Institute of Information Technology Allahabad",
+    "short_name": "IIIT Allahabad",
+    "campus_area": "100 Acres",
+    "location": "IIIT Allahabad, Jhalwa, Prayagraj, Uttar Pradesh 211015",
+    "description": "Established in 1999 as a Center of Excellence in IT, IIIT Allahabad is a Centrally Funded Technical Institute (CFTI) and an Institute of National Importance, known for its rigorous academic curriculum and exceptional placements.",
+    "highlights":[
+      "Ranked #89 in Engineering by NIRF 2023 [1.5]",
+      "Highest package of 1.20 Cr in 2023 with an average over 30 LPA",
+      "State-of-the-art 100-acre lush green campus in Jhalwa",
+      "Fully funded by the Ministry of Education (MoE), Govt. of India"
+    ],
+    "rankings": {
+      "nirf_engineering": 89,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 70000,
+      "overall_rough_estimate_4_years": 750000
+    }
+  },
+  {
+    "institute_name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management Gwalior",
+    "short_name": "ABV-IIITM Gwalior",
+    "campus_area": "160 Acres",
+    "location": "ABV-IIITM Gwalior, Morena Link Road, Gwalior, Madhya Pradesh 474015",
+    "description": "Established in 1997, ABV-IIITM Gwalior is a premier CFTI recognized as an Institute of National Importance. It integrates IT and Management disciplines, offering dual degree and B.Tech programs.",
+    "highlights":[
+      "Ranked #88 in Engineering by NIRF 2023 [1.10]",
+      "Beautiful 160-acre campus situated near the foothills of Gwalior Fort",
+      "Highest domestic package of 65 LPA with an average around 24 LPA",
+      "100% placement record for major branches with global tech recruiters"
+    ],
+    "rankings": {
+      "nirf_engineering": 88,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 79000,
+      "overall_rough_estimate_4_years": 850000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology, Design and Manufacturing Jabalpur",
+    "short_name": "IIITDM Jabalpur",
+    "campus_area": "260 Acres",
+    "location": "IIITDM Jabalpur, Dumna Airport Road, Jabalpur, Madhya Pradesh 482005",
+    "description": "Founded in 2005, IIITDM Jabalpur is a CFTI that uniquely focuses on blending Information Technology with Design and Manufacturing engineering disciplines.",
+    "highlights":[
+      "Ranked #97 in Engineering by NIRF 2023",
+      "Sprawling 260-acre eco-friendly campus with modern amenities [1.9]",
+      "Highest package of 82 LPA with a strong average of 21.6 LPA",
+      "Robust curriculum emphasizing project-based learning and design innovation"
+    ],
+    "rankings": {
+      "nirf_engineering": 97,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 65000,
+      "overall_rough_estimate_4_years": 750000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology, Design and Manufacturing Kancheepuram",
+    "short_name": "IIITDM Kancheepuram",
+    "campus_area": "51 Acres",
+    "location": "IIITDM Kancheepuram, Melakottaiyur, Chennai, Tamil Nadu 600127",
+    "description": "Established in 2007 by the Ministry of Education, this Institute of National Importance specializes in IT and design-centric engineering education, located in the IT corridor of Chennai.",
+    "highlights":[
+      "Rank Band 101-150 in Engineering by NIRF 2023",
+      "Strategic location near Chennai's industrial hub promoting strong industry tie-ups",
+      "Highest package around 32 LPA with consistent placements in core design and IT",
+      "Modern 51-acre self-contained residential campus"
+    ],
+    "rankings": {
+      "nirf_engineering": "Rank Band 101-150",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 60000,
+      "overall_rough_estimate_4_years": 650000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology, Design and Manufacturing Kurnool",
+    "short_name": "IIITDM Kurnool",
+    "campus_area": "152 Acres",
+    "location": "IIITDM Kurnool, Jagannathagattu, Kurnool, Andhra Pradesh 518008",
+    "description": "Announced in 2014 and fully functional as a CFTI, IIITDM Kurnool promotes excellence in IT and manufacturing-related fields with rapidly expanding infrastructure.",
+    "highlights":[
+      "Emerging Institute of National Importance fully funded by the Central Govt",
+      "Scenic 152-acre campus at Jagannathagattu hill",
+      "Increasing placement statistics with highest packages up to 28 LPA",
+      "Strong focus on smart manufacturing and computational engineering"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 200",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 60000,
+      "overall_rough_estimate_4_years": 650000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Sri City",
+    "short_name": "IIIT Sri City",
+    "campus_area": "70 Acres",
+    "location": "IIIT Sri City, Gnan Marg, Sri City, Chittoor District, Andhra Pradesh 517646",
+    "description": "Operated under the PPP model and established in 2013, IIIT Sri City is situated in a massive integrated business city, providing students with unparalleled industrial exposure.",
+    "highlights":[
+      "Industry-aligned curriculum tailored to emerging tech trends",
+      "Excellent placement records with an average package of 20.3 LPA",
+      "Active ecosystem of startups and innovation cells",
+      "70-acre campus surrounded by over 180 multinational companies"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 140000,
+      "overall_rough_estimate_4_years": 1500000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Guwahati",
+    "short_name": "IIIT Guwahati",
+    "campus_area": "67 Acres",
+    "location": "IIIT Guwahati, Bongora, Assam 781015",
+    "description": "Set up in 2013 under the PPP model, IIIT Guwahati is a fast-growing institute in Northeast India recognized for its emphasis on research and technical proficiency.",
+    "highlights":[
+      "Rank Band 101-150 in Engineering by NIRF 2023",
+      "Highest salary package of 1.20 Cr in recent placements",
+      "State-of-the-art permanent campus spanning 67 acres near the airport",
+      "High faculty-to-student ratio ensuring personalized academic attention"
+    ],
+    "rankings": {
+      "nirf_engineering": "Rank Band 101-150",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 125000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Vadodara",
+    "short_name": "IIIT Vadodara",
+    "campus_area": "50 Acres",
+    "location": "IIIT Vadodara, Block No 9, Government Engineering College, Sector 28, Gandhinagar, Gujarat 382028",
+    "description": "Established in 2013 under the PPP mode, IIIT Vadodara currently operates from Gandhinagar and focuses on deep computer science fundamentals and high-end IT research.",
+    "highlights":[
+      "Exceptional placements with the highest package reaching 43.5 LPA",
+      "Strong coding culture and achievements in global hackathons",
+      "Mentored continuously by leading tech conglomerates like TCS",
+      "Permanent 50-acre campus under construction in Dumad, Vadodara"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Kota",
+    "short_name": "IIIT Kota",
+    "campus_area": "100 Acres",
+    "location": "IIIT Kota, MNIT Jaipur Campus, JLN Marg, Jaipur, Rajasthan 302017",
+    "description": "Initiated in 2013 under the PPP model, IIIT Kota initially operated out of MNIT Jaipur and is transitioning to its massive permanent campus in Ranpur, Kota.",
+    "highlights":[
+      "Strong mentoring from MNIT Jaipur ensuring top-tier academic delivery",
+      "Highest package of over 82 LPA in recent placement cycles",
+      "Excellent average package hovering around 14.6 LPA",
+      "Spacious 100-acre new campus equipped with modern infrastructure"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Tiruchirappalli",
+    "short_name": "IIIT Trichy",
+    "campus_area": "56 Acres",
+    "location": "IIIT Tiruchirappalli, Sethurappatti, Tiruchirappalli, Tamil Nadu 620012",
+    "description": "An Institute of National Importance under the PPP model, IIIT Trichy focuses on core IT disciplines and operates from its dedicated campus in Sethurappatti.",
+    "highlights":[
+      "Mentored heavily by NIT Trichy during its foundational years",
+      "Growing placement cell with highest packages crossing 27 LPA",
+      "Rapidly developing 56-acre permanent campus",
+      "Vibrant student community engaging in numerous national technical fests"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Una",
+    "short_name": "IIIT Una",
+    "campus_area": "54 Acres",
+    "location": "IIIT Una, Saloh, Una, Himachal Pradesh 177209",
+    "description": "Established under the PPP model in 2014, IIIT Una operates from its scenic permanent campus in Himachal Pradesh, providing quality IT education.",
+    "highlights":[
+      "Highest placement package of over 60 LPA in recent records",
+      "State-of-the-art permanent campus in Saloh spread over 54 acres",
+      "Fast-growing IT hub in the pristine environment of Himachal Pradesh",
+      "Highly skilled faculty pool prioritizing research and development"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 105000,
+      "overall_rough_estimate_4_years": 1150000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Sonepat",
+    "short_name": "IIIT Sonepat",
+    "campus_area": "50 Acres",
+    "location": "IIIT Sonepat, SBIT Campus, Pallri, Sonepat, Haryana 131021",
+    "description": "Established in 2014 under the PPP model, IIIT Sonepat is strategically located near the National Capital Region (NCR), affording students excellent corporate accessibility.",
+    "highlights":[
+      "Stellar placements with the highest package reaching 52 LPA",
+      "Proximity to the Delhi-NCR tech and corporate ecosystem",
+      "Mentored historically by NIT Kurukshetra",
+      "Developing a new 50-acre permanent campus"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Kalyani",
+    "short_name": "IIIT Kalyani",
+    "campus_area": "50 Acres",
+    "location": "IIIT Kalyani, WEBEL IT Park, Kalyani, West Bengal 741235",
+    "description": "A PPP-mode institute established in West Bengal, IIIT Kalyani bridges the gap between academic research and industry demands in the realm of Information Technology.",
+    "highlights":[
+      "Rapidly growing placement rate with top tech giants visiting annually",
+      "Focus on disruptive technologies like AI, IoT, and Machine Learning",
+      "Operating dynamically from the WEBEL IT Park",
+      "Permanent 50-acre campus infrastructure underway"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Lucknow",
+    "short_name": "IIIT Lucknow",
+    "campus_area": "50 Acres",
+    "location": "IIIT Lucknow, Chak Ganjaria, C. G. City, Lucknow, Uttar Pradesh 226002",
+    "description": "Started in 2015, IIIT Lucknow is a PPP-mode institute famous for its extraordinary placement statistics that rival top-tier IITs and NITs.",
+    "highlights":[
+      "Staggering average placement package of around 30 LPA in recent years",
+      "Highest package extending up to 59 LPA with 100% placement records",
+      "Specialized branches in AI, Computer Science, and Business",
+      "Situated in the modern IT city of Lucknow"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 120000,
+      "overall_rough_estimate_4_years": 1400000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Dharwad",
+    "short_name": "IIIT Dharwad",
+    "campus_area": "60 Acres",
+    "location": "IIIT Dharwad, Ittigatti Road, Near Sattur Colony, Dharwad, Karnataka 580009",
+    "description": "An Institute of National Importance set up in 2015 under the PPP mode. IIIT Dharwad focuses heavily on Data Science, AI, and Electronics.",
+    "highlights":[
+      "Located in the educational and cultural hub of Karnataka",
+      "Newly inaugurated, highly equipped 60-acre permanent campus",
+      "Highest package around 35 LPA with strong core tech recruitment",
+      "Unique specialized programs in Data Science and AI"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 120000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Pune",
+    "short_name": "IIIT Pune",
+    "campus_area": "100 Acres",
+    "location": "IIIT Pune, Sinhgad College Campus, Ambegaon, Pune, Maharashtra 411041",
+    "description": "Established in 2016 under the PPP model, IIIT Pune benefits vastly from being located in one of India's largest IT and automotive hubs.",
+    "highlights":[
+      "Remarkable average package of ~17 LPA with the highest hitting 53 LPA [2.5]",
+      "Exceptional coding culture actively participating in ACM ICPC",
+      "Proximity to Pune's massive IT sector ensuring high industry interaction",
+      "Permanent 100-acre campus planned at Nanoli"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 120000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Bhopal",
+    "short_name": "IIIT Bhopal",
+    "campus_area": "50 Acres",
+    "location": "IIIT Bhopal, MANIT Campus, Bhopal, Madhya Pradesh 462003",
+    "description": "Operating since 2017 under the PPP model, IIIT Bhopal has quickly risen through the ranks with exceptional coding environments and placement stats.",
+    "highlights":[
+      "Highest package reaching 85 LPA in top tier firms",
+      "Mentored by MANIT Bhopal providing access to excellent resources",
+      "Very competitive coding culture and strong alumni network",
+      "Permanent 50-acre campus allotted and under process"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Agartala",
+    "short_name": "IIIT Agartala",
+    "campus_area": "52 Acres",
+    "location": "IIIT Agartala, NIT Agartala Campus, Jirania, Tripura 799046",
+    "description": "A promising PPP model institute founded in 2018, IIIT Agartala shares resources with NIT Agartala and has seen breakthrough international placements.",
+    "highlights":[
+      "Record-breaking international package of over 1.15 Cr in recent years",
+      "Leverages the vast infrastructure and labs of NIT Agartala",
+      "Focused predominantly on Computer Science and emerging tech",
+      "Permanent campus spanning 52 acres in the pipeline"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Nagpur",
+    "short_name": "IIIT Nagpur",
+    "campus_area": "100 Acres",
+    "location": "IIIT Nagpur, Survey No. 140, 141/1 Village - Waranga, Dongargaon, Nagpur, Maharashtra 441108",
+    "description": "Established in 2016 under the PPP format, IIIT Nagpur has built a stellar reputation with its modern infrastructure and highly competitive IT programs.",
+    "highlights":[
+      "State-of-the-art permanent campus constructed over 100 acres",
+      "Industry partnership with Tata Consultancy Services (TCS) [2.16]",
+      "Highest placement package of 60 LPA and median around 12 LPA",
+      "Offers niche specializations like AI, IoT, and Data Science"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 99000,
+      "overall_rough_estimate_4_years": 1300000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Ranchi",
+    "short_name": "IIIT Ranchi",
+    "campus_area": "67 Acres",
+    "location": "IIIT Ranchi, ARTTC BSNL Campus, Ranchi, Jharkhand 835217",
+    "description": "Established in 2016 under the PPP model, IIIT Ranchi works aggressively towards IT research and development from its temporary and newly developing facilities.",
+    "highlights":[
+      "Mentored continuously by NIT Jamshedpur and IIIT Allahabad historically",
+      "Highest salary offered went up to 46 LPA recently",
+      "Strong coding clubs and active technical student chapters",
+      "Permanent campus of 67 acres is actively being built"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Surat",
+    "short_name": "IIIT Surat",
+    "campus_area": "50 Acres",
+    "location": "IIIT Surat, SVNIT Campus, Ichchhanath, Surat, Gujarat 395007",
+    "description": "Founded in 2017, IIIT Surat is a PPP initiative rapidly making a mark through its comprehensive Computer Science and Electronics programs.",
+    "highlights":[
+      "Mentored deeply by SVNIT Surat, ensuring high academic standards",
+      "Highest package achieved of 44 LPA with impressive average yields",
+      "Located in the fast-growing economic hub of Surat, Gujarat",
+      "Focused learning with a smaller batch size allowing better mentoring"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 75000,
+      "overall_rough_estimate_4_years": 900000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Bhagalpur",
+    "short_name": "IIIT Bhagalpur",
+    "campus_area": "50 Acres",
+    "location": "IIIT Bhagalpur, BCE Campus, Sabour, Bhagalpur, Bihar 813210",
+    "description": "Started in 2017 under the PPP model, IIIT Bhagalpur is an emerging IT institute in Bihar, uniquely offering Mechatronics alongside CSE and ECE.",
+    "highlights":[
+      "Unique B.Tech program in Mechatronics Engineering",
+      "Mentored actively by IIT Guwahati in its early stages",
+      "Placements showing strong upward trends with packages over 39 LPA",
+      "Operating from its fully functional campus inside BCE Bhagalpur"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 95000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Manipur",
+    "short_name": "IIIT Manipur",
+    "campus_area": "150 Acres",
+    "location": "IIIT Manipur, Mantripukhri, Imphal, Manipur 795002",
+    "description": "An Institute of National Importance established in 2015 under the PPP mode to foster IT growth and technical manpower in the North-Eastern region.",
+    "highlights":[
+      "Promotes technical growth in the scenic Northeast of India",
+      "Offers niche core IT and VLSI engineering disciplines",
+      "Small batch size leading to an excellent student-teacher ratio",
+      "Massive 150-acre permanent campus under development in Senapati"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Kottayam",
+    "short_name": "IIIT Kottayam",
+    "campus_area": "53 Acres",
+    "location": "IIIT Kottayam, Valavoor, Pala, Kerala 686635",
+    "description": "Located in the lush green environment of Kerala, IIIT Kottayam was established in 2015 under the PPP format and boasts high-tech campus facilities.",
+    "highlights":[
+      "Beautiful 53-acre permanent campus surrounded by nature",
+      "Excellent cloud computing and cybersecurity focus",
+      "High placement rates with maximum packages touching 58 LPA",
+      "Collaborations with foreign universities for academic exchange"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_name": "Indian Institute of Information Technology Raichur",
+    "short_name": "IIIT Raichur",
+    "campus_area": "60 Acres",
+    "location": "IIIT Raichur, Government Engineering College Campus, Raichur, Karnataka 584133",
+    "description": "One of the newest IIITs established in 2019 under the PPP model, mentored exceptionally by IIT Hyderabad to ensure premium academic quality.",
+    "highlights":[
+      "Direct mentorship and faculty support from IIT Hyderabad",
+      "Rapidly developing infrastructure and robust academic curriculum",
+      "Excellent early placement records due to IIT-H network",
+      "Focused purely on Computer Science and Mathematics/Computing"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 100000,
+      "overall_rough_estimate_4_years": 1100000
+    }
+  },
+  {
+    "institute_name": "International Institute of Information Technology Hyderabad",
+    "short_name": "IIIT Hyderabad",
+    "campus_area": "66 Acres",
+    "location": "IIIT Hyderabad, Gachibowli, Hyderabad, Telangana 500032",
+    "description": "Established in 1998 as a non-profit PPP, IIIT Hyderabad is widely considered the best IIIT in India, renowned globally for its cutting-edge research in AI, Robotics, and Computer Science.",
+    "highlights": [
+      "Ranked #55 in Engineering by NIRF 2023",
+      "Exceptional placements with the highest package of 1.28 Cr and avg of 32 LPA",
+      "India's finest research facilities in AI, CVIT, and NLP",
+      "Highly competitive admission through UGEE and JEE Main portals"
+    ],
+    "rankings": {
+      "nirf_engineering": 55,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 225000,
+      "overall_rough_estimate_4_years": 2200000
+    }
+  },
+  {
+    "institute_name": "International Institute of Information Technology Bangalore",
+    "short_name": "IIIT Bangalore",
+    "campus_area": "9 Acres",
+    "location": "IIIT Bangalore, 26/C, Electronics City, Hosur Road, Bengaluru, Karnataka 560100",
+    "description": "Established in 1999 as a Deemed University, IIIT Bangalore is a top-tier autonomous institute located in India's Silicon Valley, famous for its Integrated M.Tech programs.",
+    "highlights":[
+      "Ranked #74 in Engineering by NIRF 2023",
+      "Situated in the heart of Electronics City, Bengaluru",
+      "World-class integrated M.Tech placements with averages over 30 LPA",
+      "Intense focus on post-graduate research and software engineering"
+    ],
+    "rankings": {
+      "nirf_engineering": 74,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 250000,
+      "overall_rough_estimate_4_years": 2400000
+    }
+  },
+  {
+    "institute_name": "Indraprastha Institute of Information Technology Delhi",
+    "short_name": "IIIT Delhi",
+    "campus_area": "25 Acres",
+    "location": "IIIT Delhi, Okhla Industrial Estate, Phase III, New Delhi 110020",
+    "description": "Created by an act of the Delhi Government in 2008, IIIT Delhi is a globally respected state university known for its deep research culture and top-tier CSE/CSD programs.",
+    "highlights":[
+      "Ranked #75 in Engineering by NIRF 2023",
+      "Stellar placement records with average packages exceeding 23 LPA",
+      "State-of-the-art 25-acre modern campus in South Delhi",
+      "Renowned faculty with global exposure and heavy research funding"
+    ],
+    "rankings": {
+      "nirf_engineering": 75,
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 210000,
+      "overall_rough_estimate_4_years": 2000000
+    }
+  },
+  {
+    "institute_name": "Dr. SPM International Institute of Information Technology Naya Raipur",
+    "short_name": "IIIT Naya Raipur",
+    "campus_area": "50 Acres",
+    "location": "IIIT Naya Raipur, Plot No. 7, Sector 24, Near Purkhouti Muktangan, Atal Nagar, Naya Raipur, Chhattisgarh 493661",
+    "description": "A State University established as a joint venture between the Govt of Chhattisgarh and NTPC. It boasts phenomenal infrastructure and highly specialized tech programs.",
+    "highlights":[
+      "Fully residential 50-acre digital campus in Atal Nagar",
+      "Emerging as a premier tech institute with top packages crossing 43 LPA",
+      "Strong collaborations with academia and industry for Data Science",
+      "Features specific reservations and scholarships for NTPC wards and state residents"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 110000,
+      "overall_rough_estimate_4_years": 1200000
+    }
+  },
+  {
+    "institute_name": "International Institute of Information Technology Bhubaneswar",
+    "short_name": "IIIT Bhubaneswar",
+    "campus_area": "50 Acres",
+    "location": "IIIT Bhubaneswar, Gothapatna, PO: Malipada, Bhubaneswar, Odisha 751003",
+    "description": "Founded by the Government of Odisha in 2006, it functions as a unitary university. IIIT Bhubaneswar provides an excellent blend of engineering, science, and humanities.",
+    "highlights":[
+      "Well-established alumni network and good core placements",
+      "Admissions primarily through JEE Main via JoSAA and State counselling",
+      "Lush green 50-acre campus near the capital city of Odisha",
+      "Highest package extending to 39 LPA with a solid median placement"
+    ],
+    "rankings": {
+      "nirf_engineering": "Not in Top 100",
+      "nirf_overall": "Not in Top 100"
+    },
+    "fee_structure": {
+      "tuition_fee_per_semester": 90000,
+      "overall_rough_estimate_4_years": 1000000
+    }
+  }
+]
