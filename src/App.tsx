@@ -9,11 +9,13 @@ import {
   User, 
   Bell, 
   Settings, 
+  Filter,
   ChevronDown,
   Edit2,
   Check,
   X,
-  Building2
+  Building2,
+  Target
 } from 'lucide-react';
 import { ChanceLevel, RawData, BranchData, CollegeData, calculateChance, getInitialsSvg, matchesInstituteType, findInstituteInfo } from './data';
 import { CollegeProfile } from './CollegeProfile';
@@ -64,7 +66,7 @@ const toSingleCollegeTypeSelection = (previous: string[], next: string[]) => {
 
 export default function App() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
-  const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const [isFiltersOpen, setIsFiltersOpen] = useState(true);
   const [rawData, setRawData] = useState<RawData | null>(null);
   const [instituteData, setInstituteData] = useState<any[]>([]);
   const [selectedCollegeForProfile, setSelectedCollegeForProfile] = useState<any | null>(null);
@@ -81,7 +83,7 @@ export default function App() {
     return null;
   }, []);
 
-  const [hasLanded, setHasLanded] = useState<boolean>(!!initialData);
+  const [hasLanded, setHasLanded] = useState<boolean>(false);
   const [userName, setUserName] = useState<string>(initialData?.name || 'Student');
   const [userRank, setUserRank] = useState<number>(Number(initialData?.mainRank) || 12450);
   const [userCategory, setUserCategory] = useState<string>(initialData?.category || 'OPEN');
@@ -115,7 +117,7 @@ export default function App() {
 
   // Search/Filter State
   const [searchQuery, setSearchQuery] = useState('');
-  const [collegeTypes, setCollegeTypes] = useState<string[]>(['NIT']);
+  const [collegeTypes, setCollegeTypes] = useState<string[]>([]);
   const [branchFilters, setBranchFilters] = useState<string[]>([]);
   const [minChanceFilter, setMinChanceFilter] = useState<number>(1); // Default to Unlikely (1) to Guaranteed
   const [sortBy, setSortBy] = useState<string>('cutoff_asc');
@@ -263,7 +265,7 @@ export default function App() {
   }, [rawData, instituteData, userRank, userCategory, userQuota, userGender, searchQuery, branchFilters, collegeTypes, minChanceFilter, sortBy]);
 
   if (!hasLanded) {
-    return <LandingPage onProceed={handleLandingProceed} />;
+    return <LandingPage onProceed={handleLandingProceed} initialData={initialData} />;
   }
 
   return (
@@ -274,32 +276,30 @@ export default function App() {
           sidebarCollapsed ? 'w-[4.5rem]' : 'w-64'
         }`}
       >
-        <div className={`p-4 border-b border-outline-variant ${sidebarCollapsed ? 'px-3' : 'px-4'}`}>
-          <div className="flex items-center gap-3">
-            <div className="size-10 flex items-center justify-center shrink-0 overflow-visible">
-              <img src="/logo.svg" alt="JEE Toolkit Logo" className="w-[125%] h-[125%] max-w-none object-contain" />
+        <div className={`py-4 border-b border-outline-variant flex items-center ${sidebarCollapsed ? 'justify-center' : 'px-5 gap-3'}`}>
+            <div className="size-8 flex items-center justify-center shrink-0">
+              <img src="/logo.svg" alt="JEE Toolkit Logo" className="w-full h-full object-contain" />
             </div>
             {!sidebarCollapsed && (
-              <div className="min-w-0 flex flex-col justify-center">
-                <h1 className="font-extrabold text-[17px] leading-tight tracking-tight text-primary">JEE TOOLKIT</h1>
+              <div className="min-w-0 flex flex-col justify-center mt-0.5">
+                <h1 className="font-extrabold text-[17px] leading-none tracking-tight text-primary">JEE TOOLKIT</h1>
               </div>
             )}
-          </div>
         </div>
 
-        <nav className={`flex-1 overflow-y-auto p-3 space-y-1 ${sidebarCollapsed ? 'px-[0.375rem]' : 'px-3'}`}>
+        <nav className={`flex-1 overflow-y-auto py-4 space-y-1 ${sidebarCollapsed ? 'px-[0.375rem]' : 'px-3'}`}>
           <button 
             onClick={() => setActiveTab('predictor')}
-            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded cursor-pointer transition-colors ${
+            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition-colors ${
               activeTab === 'predictor' ? 'bg-primary-fixed text-on-primary-fixed font-semibold' : 'text-on-surface hover:bg-surface-container'
             } ${sidebarCollapsed ? 'justify-center' : ''}`}
           >
-             <Calculator className={`size-5 ${activeTab === 'predictor' ? 'fill-current' : ''}`} />
+             <Target className={`size-5 ${activeTab === 'predictor' ? 'text-primary' : ''}`} />
             {!sidebarCollapsed && <span className="text-sm">Predictor</span>}
           </button>
           <button 
             onClick={() => setActiveTab('cutoff-search')}
-            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded cursor-pointer transition-colors ${
+            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition-colors ${
               activeTab === 'cutoff-search' ? 'bg-primary-fixed text-on-primary-fixed font-semibold' : 'text-on-surface hover:bg-surface-container'
             } ${sidebarCollapsed ? 'justify-center' : ''}`}
           >
@@ -308,25 +308,28 @@ export default function App() {
           </button>
           <button 
             onClick={() => setActiveTab('colleges')}
-            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded cursor-pointer transition-colors ${
+            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition-colors ${
               activeTab === 'colleges' ? 'bg-primary-fixed text-on-primary-fixed font-semibold' : 'text-on-surface hover:bg-surface-container'
             } ${sidebarCollapsed ? 'justify-center' : ''}`}
           >
-            <Building2 className="size-5" />
-            {!sidebarCollapsed && <span className="text-sm">Participating Colleges</span>}
+            <Building2 className={`size-5 ${activeTab === 'colleges' ? 'text-primary' : ''}`} />
+            {!sidebarCollapsed && <span className="text-sm">Colleges</span>}
           </button>
           <button 
             onClick={() => setActiveTab('placements')}
-            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded cursor-pointer transition-colors ${
+            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition-colors ${
               activeTab === 'placements' ? 'bg-primary-fixed text-on-primary-fixed font-semibold' : 'text-on-surface hover:bg-surface-container'
             } ${sidebarCollapsed ? 'justify-center' : ''}`}
           >
             <Briefcase className={`size-5 ${activeTab === 'placements' ? 'text-primary' : ''}`} />
             {!sidebarCollapsed && <span className="text-sm">Placements</span>}
           </button>
+          <div className="px-3 pt-4 pb-2">
+             {sidebarCollapsed ? <div className="h-px bg-outline-variant w-full" /> : <p className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">Saved</p>}
+          </div>
           <button 
             onClick={() => setActiveTab('shortlist')}
-            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded cursor-pointer transition-colors ${
+            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition-colors ${
               activeTab === 'shortlist' ? 'bg-primary-fixed text-on-primary-fixed font-semibold' : 'text-on-surface hover:bg-surface-container'
             } ${sidebarCollapsed ? 'justify-center' : ''}`}
           >
@@ -335,9 +338,9 @@ export default function App() {
           </button>
         </nav>
 
-        <div className={`p-4 border-t border-outline-variant flex flex-col gap-2 ${sidebarCollapsed ? 'px-[0.375rem]' : 'px-4'}`}>
+        <div className={`p-4 border-t border-outline-variant flex flex-col gap-3 ${sidebarCollapsed ? 'px-[0.375rem]' : 'px-4'}`}>
           <button 
-            className={`flex items-center gap-3 w-full py-2 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors cursor-pointer ${
+            className={`flex items-center gap-3 w-full py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors cursor-pointer ${
               sidebarCollapsed ? 'justify-center px-0' : 'px-2'
             }`}
             onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
@@ -346,14 +349,26 @@ export default function App() {
             <PanelLeftClose className={`size-5 transition-transform ${sidebarCollapsed ? 'rotate-180' : ''}`} />
             {!sidebarCollapsed && <span className="font-medium text-sm">Collapse Sidebar</span>}
           </button>
-          <div className={`flex items-center gap-3 py-2 ${sidebarCollapsed ? 'justify-center px-0' : 'px-2'}`}>
-            <div className="size-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container shrink-0">
-              <User className="size-4" />
-            </div>
-            {!sidebarCollapsed && (
-              <div className="flex-1 min-w-0">
-                <p className="text-sm font-bold truncate">{userName}</p>
-                <p className="text-[10px] text-on-surface-variant truncate font-medium">Standard Access</p>
+          <div 
+            className={`mt-1 ${sidebarCollapsed ? 'flex justify-center py-2' : 'p-3 bg-surface-container-low border border-outline-variant rounded-xl cursor-pointer hover:border-primary/40 hover:bg-surface-container transition-all group shadow-sm'}`} 
+            onClick={() => setHasLanded(false)}
+            title={sidebarCollapsed ? "Edit Profile" : undefined}
+          >
+            {sidebarCollapsed ? (
+              <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0 border border-primary/20 cursor-pointer hover:bg-primary/20 transition-colors">
+                <span className="text-sm font-bold">{userName.charAt(0).toUpperCase()}</span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-3">
+                <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0 border border-primary/20 group-hover:scale-105 transition-transform">
+                  <span className="text-sm font-bold">{userName.charAt(0).toUpperCase()}</span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-bold text-on-surface truncate group-hover:text-primary transition-colors">{userName}</p>
+                  <p className="text-[11px] text-primary font-medium flex items-center gap-1 opacity-80 group-hover:opacity-100 transition-opacity mt-0.5">
+                    <Edit2 className="size-2.5" /> Edit Profile
+                  </p>
+                </div>
               </div>
             )}
           </div>
@@ -363,7 +378,7 @@ export default function App() {
       {/* Main Content */}
       <div className="flex-1 flex flex-col min-w-0 overflow-hidden relative">
       {selectedCollegeForProfile ? (
-        <CollegeProfile college={selectedCollegeForProfile} userRank={userRank} onBack={() => setSelectedCollegeForProfile(null)} />
+        <CollegeProfile college={selectedCollegeForProfile} rawData={rawData} userRank={userRank} onBack={() => setSelectedCollegeForProfile(null)} />
       ) : activeTab === 'colleges' ? (
         <CollegeCompare rawData={rawData} instituteData={instituteData} onSelectCollege={setSelectedCollegeForProfile} />
       ) : activeTab === 'cutoff-search' ? (
@@ -506,147 +521,117 @@ export default function App() {
         </header>
 
         {/* Sticky Filter Bar */}
-        <div className="bg-surface-container-lowest border-b border-outline-variant px-4 md:px-gutter py-4 flex flex-col gap-4 sticky top-0 z-40 flex-shrink-0 shadow-sm relative">
-          
-          {/* Mobile Filter Toggle */}
-          <div className="md:hidden flex items-center gap-3">
-            <button 
-              onClick={() => setIsMobileFilterOpen(!isMobileFilterOpen)} 
-              className="flex-1 flex items-center justify-center gap-2 border border-outline-variant rounded-md py-2 text-[13px] font-bold text-on-surface bg-surface-container hover:bg-surface-container-high transition-colors"
-            >
-               <Settings className="size-4" /> 
-               {isMobileFilterOpen ? 'Hide Filters' : 'Show Filters'}
-            </button>
-            <p className="flex-shrink-0 text-[11px] font-bold text-on-surface-variant uppercase tracking-widest text-right">
-              <span className="text-[#982b35] text-sm tabular-nums font-bold">{displayedColleges.reduce((acc, c) => acc + c.branches.length, 0)}</span> matches
-            </p>
-          </div>
+        <div className="bg-surface-container-lowest border-b border-outline-variant px-4 md:px-gutter py-3 flex flex-col gap-3 sticky top-0 z-40 flex-shrink-0 shadow-sm relative">
+          {isFiltersOpen ? (
+            <div className="flex flex-col md:flex-row items-start justify-between gap-4">
+              <div className="flex flex-wrap items-center gap-2 flex-1">
+                <CustomDropdown
+                  label="Type"
+                  value={collegeTypes}
+                  multi={true}
+                  options={[
+                    { value: "NIT",  label: "NITs" },
+                    { value: "IIIT", label: "IIITs" },
+                    { value: "IIT",  label: "IITs",  disabled: true },
+                    { value: "GFTI", label: "GFTIs", disabled: true }
+                  ]}
+                  onChange={(next: string[]) => setCollegeTypes(previous => toSingleCollegeTypeSelection(previous, next))}
+                />
+                <CustomDropdown
+                  label="Year"
+                  value={selectedYear.toString()}
+                  options={[
+                    { value: "2025", label: "2025" },
+                    { value: "2024", label: "2024" }
+                  ]}
+                  onChange={(val: string) => setSelectedYear(parseInt(val))}
+                />
+                <CustomDropdown
+                  label="Counseling"
+                  value={selectedCounselling}
+                  options={[
+                    { value: "JoSAA", label: "JoSAA" },
+                    { value: "CSAB",  label: "CSAB" }
+                  ]}
+                  onChange={setSelectedCounselling}
+                />
+                <CustomDropdown
+                  label="Round"
+                  value={selectedRound.toString()}
+                  options={[
+                    { value: "1", label: "Round 1" },
+                    { value: "2", label: "Round 2" },
+                    { value: "3", label: "Round 3" },
+                    { value: "4", label: "Round 4" },
+                    { value: "5", label: "Round 5" },
+                    { value: "6", label: "Round 6" },
+                  ]}
+                  onChange={(val: string) => setSelectedRound(parseInt(val))}
+                />
+                <CustomDropdown
+                  label="Quota"
+                  value={userQuota}
+                  options={[
+                    { value: "AI", label: "All India (AI)" },
+                    { value: "HS", label: "Home State (HS)" },
+                    { value: "OS", label: "Other State (OS)" },
+                    { value: "GO", label: "GO" },
+                    { value: "JK", label: "JK" },
+                    { value: "LA", label: "LA" }
+                  ]}
+                  onChange={setUserQuota}
+                />
+                <CustomDropdown
+                  label="Category"
+                  value={userCategory}
+                  options={[
+                    { value: "OPEN",           label: "OPEN" },
+                    { value: "OPEN (PwD)",     label: "OPEN (PwD)" },
+                    { value: "EWS",            label: "EWS" },
+                    { value: "EWS (PwD)",      label: "EWS (PwD)" },
+                    { value: "OBC-NCL",        label: "OBC-NCL" },
+                    { value: "OBC-NCL (PwD)",  label: "OBC-NCL (PwD)" },
+                    { value: "SC",             label: "SC" },
+                    { value: "SC (PwD)",       label: "SC (PwD)" },
+                    { value: "ST",             label: "ST" },
+                    { value: "ST (PwD)",       label: "ST (PwD)" }
+                  ]}
+                  onChange={setUserCategory}
+                />
+                <CustomDropdown
+                  label="Gender"
+                  value={userGender}
+                  options={[
+                    { value: "Gender-Neutral",                         label: "Neutral" },
+                    { value: "Female-only (including Supernumerary)",  label: "Female Only" }
+                  ]}
+                  onChange={setUserGender}
+                />
+                <CustomDropdown
+                  label="Branch"
+                  value={branchFilters}
+                  multi={true}
+                  searchable={true}
+                  options={allBranches.map(b => ({ value: b, label: b }))}
+                  onChange={setBranchFilters}
+                />
+                <CustomDropdown
+                  label="Min Chance"
+                  value={minChanceFilter.toString()}
+                  options={[
+                    { value: "0", label: "All" },
+                    { value: "1", label: "Unlikely+" },
+                    { value: "2", label: "Difficult+" },
+                    { value: "3", label: "Borderline+" },
+                    { value: "4", label: "Likely+" },
+                    { value: "5", label: "Very Likely+" },
+                    { value: "6", label: "Guaranteed" }
+                  ]}
+                  onChange={(val: string) => setMinChanceFilter(Number(val))}
+                />
+              </div>
 
-          {/* Filter Content */}
-          <div className={`${isMobileFilterOpen ? 'flex' : 'hidden md:flex'} flex-col gap-3`}>
-
-            {/* Row 1: Data source filters */}
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest shrink-0">Data:</span>
-              <CustomDropdown
-                label="Type"
-                value={collegeTypes}
-                multi={true}
-                options={[
-                  { value: "NIT",  label: "NITs" },
-                  { value: "IIIT", label: "IIITs" },
-                  { value: "IIT",  label: "IITs",  disabled: true },
-                  { value: "GFTI", label: "GFTIs", disabled: true }
-                ]}
-                onChange={(next: string[]) => setCollegeTypes(previous => toSingleCollegeTypeSelection(previous, next))}
-              />
-              <CustomDropdown
-                label="Year"
-                value={selectedYear.toString()}
-                options={[
-                  { value: "2025", label: "2025" },
-                  { value: "2024", label: "2024" }
-                ]}
-                onChange={(val: string) => setSelectedYear(parseInt(val))}
-              />
-              <CustomDropdown
-                label="Counseling"
-                value={selectedCounselling}
-                options={[
-                  { value: "JoSAA", label: "JoSAA" },
-                  { value: "CSAB",  label: "CSAB" }
-                ]}
-                onChange={setSelectedCounselling}
-              />
-              <CustomDropdown
-                label="Round"
-                value={selectedRound.toString()}
-                options={[
-                  { value: "1", label: "Round 1" },
-                  { value: "2", label: "Round 2" },
-                  { value: "3", label: "Round 3" },
-                  { value: "4", label: "Round 4" },
-                  { value: "5", label: "Round 5" },
-                  { value: "6", label: "Round 6" },
-                ]}
-                onChange={(val: string) => setSelectedRound(parseInt(val))}
-              />
-            </div>
-
-            {/* Row 2: Profile / eligibility filters */}
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest shrink-0">Profile:</span>
-              <CustomDropdown
-                label="Quota"
-                value={userQuota}
-                options={[
-                  { value: "AI", label: "All India (AI)" },
-                  { value: "HS", label: "Home State (HS)" },
-                  { value: "OS", label: "Other State (OS)" },
-                  { value: "GO", label: "GO" },
-                  { value: "JK", label: "JK" },
-                  { value: "LA", label: "LA" }
-                ]}
-                onChange={setUserQuota}
-              />
-              <CustomDropdown
-                label="Category"
-                value={userCategory}
-                options={[
-                  { value: "OPEN",           label: "OPEN" },
-                  { value: "OPEN (PwD)",     label: "OPEN (PwD)" },
-                  { value: "EWS",            label: "EWS" },
-                  { value: "EWS (PwD)",      label: "EWS (PwD)" },
-                  { value: "OBC-NCL",        label: "OBC-NCL" },
-                  { value: "OBC-NCL (PwD)",  label: "OBC-NCL (PwD)" },
-                  { value: "SC",             label: "SC" },
-                  { value: "SC (PwD)",       label: "SC (PwD)" },
-                  { value: "ST",             label: "ST" },
-                  { value: "ST (PwD)",       label: "ST (PwD)" }
-                ]}
-                onChange={setUserCategory}
-              />
-              <CustomDropdown
-                label="Gender"
-                value={userGender}
-                options={[
-                  { value: "Gender-Neutral",                         label: "Neutral" },
-                  { value: "Female-only (including Supernumerary)",  label: "Female Only" }
-                ]}
-                onChange={setUserGender}
-              />
-            </div>
-
-            {/* Row 3: Result filters */}
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest shrink-0">Filter:</span>
-              <CustomDropdown
-                label="Branch"
-                value={branchFilters}
-                multi={true}
-                searchable={true}
-                options={allBranches.map(b => ({ value: b, label: b }))}
-                onChange={setBranchFilters}
-              />
-              <CustomDropdown
-                label="Min Chance"
-                value={minChanceFilter.toString()}
-                options={[
-                  { value: "0", label: "All" },
-                  { value: "1", label: "Unlikely+" },
-                  { value: "2", label: "Difficult+" },
-                  { value: "3", label: "Borderline+" },
-                  { value: "4", label: "Likely+" },
-                  { value: "5", label: "Very Likely+" },
-                  { value: "6", label: "Guaranteed" }
-                ]}
-                onChange={(val: string) => setMinChanceFilter(Number(val))}
-              />
-              <div className="ml-auto flex items-center gap-2">
-                <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-widest hidden md:block">
-                  <span className="text-[#982b35] text-base tabular-nums font-extrabold">{displayedColleges.reduce((acc, c) => acc + c.branches.length, 0)}</span> matches
-                </p>
-                <div className="h-5 w-px bg-outline-variant hidden xl:block"></div>
+              <div className="flex items-center gap-3 shrink-0 self-end md:self-auto">
                 <CustomDropdown
                   label="Sort:"
                   value={sortBy}
@@ -660,19 +645,53 @@ export default function App() {
                   ]}
                   onChange={setSortBy}
                 />
+                <div className="h-5 w-px bg-outline-variant hidden sm:block"></div>
+                <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-widest text-right shrink-0">
+                  <span className="text-[#982b35] text-base md:text-lg tabular-nums font-extrabold">{displayedColleges.reduce((acc, c) => acc + c.branches.length, 0)}</span> matches
+                </p>
+                <button 
+                  onClick={() => setIsFiltersOpen(false)} 
+                  className="p-1.5 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded-md transition-colors"
+                  title="Hide Filters"
+                >
+                  <Filter className="size-5" /> 
+                </button>
               </div>
             </div>
-          </div>
-
-          {/* Apply button for mobile */}
-          <div className="md:hidden flex justify-end mt-2">
-             <button 
-               onClick={() => setIsMobileFilterOpen(false)} 
-               className="bg-primary text-white w-full py-2.5 rounded-md text-[13px] font-bold active:scale-[0.98] transition-transform"
-             >
-               Apply Filters
-             </button>
-          </div>
+          ) : (
+            <div className="flex items-center justify-between gap-3 min-h-[38px]">
+              <div className="text-xs font-medium text-on-surface-variant truncate flex-1">
+                {`${collegeTypes.length ? collegeTypes.join(', ') : 'All Types'} • ${selectedYear} ${selectedCounselling} R${selectedRound} • ${userCategory} • ${userQuota} • ${userGender === 'Gender-Neutral' ? 'Neutral' : 'Female'} • Min Chance: ${minChanceFilter > 0 ? Object.keys(ChanceWeights).find(k => ChanceWeights[k as ChanceLevel] === minChanceFilter) : 'All'} • ${branchFilters.length ? branchFilters.length + ' branches' : 'All branches'}`}
+              </div>
+              
+              <div className="flex items-center gap-3 shrink-0">
+                <CustomDropdown
+                  label="Sort:"
+                  value={sortBy}
+                  options={[
+                    { value: "cutoff_asc",   label: "Cutoff ↑ Best" },
+                    { value: "cutoff_desc",  label: "Cutoff ↓ Lowest" },
+                    { value: "package_desc", label: "Highest Package" },
+                    { value: "nirf_asc",     label: "Best NIRF" },
+                    { value: "name_asc",     label: "Name A–Z" },
+                    { value: "name_desc",    label: "Name Z–A" }
+                  ]}
+                  onChange={setSortBy}
+                />
+                <div className="h-5 w-px bg-outline-variant hidden sm:block"></div>
+                <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-widest text-right shrink-0 hidden sm:block">
+                  <span className="text-[#982b35] text-base md:text-lg tabular-nums font-extrabold">{displayedColleges.reduce((acc, c) => acc + c.branches.length, 0)}</span> matches
+                </p>
+                <button 
+                  onClick={() => setIsFiltersOpen(true)} 
+                  className="p-1.5 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded-md transition-colors"
+                  title="Show Filters"
+                >
+                  <Filter className="size-5" /> 
+                </button>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Scrollable Content Area */}
@@ -689,11 +708,11 @@ export default function App() {
             </div>
           ) : (
             displayedColleges.map(college => (
-            <div key={college.id} className="bg-surface-container-lowest border border-outline-variant rounded-lg shadow-sm overflow-hidden flex flex-col lg:flex-row lg:h-[260px]">
+            <div key={college.id} className="bg-surface-container-lowest border border-outline-variant rounded-lg shadow-sm overflow-hidden flex flex-col lg:flex-row lg:min-h-[260px]">
               
               {/* Left Section: College Info */}
-              <div className="w-full lg:w-[320px] p-5 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-outline-variant bg-surface-container-low/30 shrink-0">
-                <div className="flex items-start gap-3 mb-2 shrink-0">
+              <div className="w-full lg:w-[320px] p-5 flex flex-col justify-start border-b lg:border-b-0 lg:border-r border-outline-variant bg-surface-container-low/30 shrink-0">
+                <div className="flex items-center gap-3 shrink-0">
                   <div className="size-14 rounded bg-white flex items-center justify-center p-2 border border-outline-variant shadow-sm shrink-0">
                     <img 
                       alt={`${college.name} Logo`} 
@@ -704,12 +723,12 @@ export default function App() {
                     />
                   </div>
                   <div>
-                    <h3 className="font-bold text-[14px] leading-snug text-on-surface line-clamp-3" title={college.name}>{college.name}</h3>
+                    <h3 className="font-bold text-[14px] leading-snug text-on-surface line-clamp-2" title={college.name}>{college.name}</h3>
                   </div>
                 </div>
                 
                 {/* Enhanced College Snippets */}
-                <div className="grid grid-cols-2 gap-x-2 gap-y-3 mb-3 py-3 border-y border-outline-variant/50 mt-auto shrink-0">
+                <div className="grid grid-cols-2 gap-x-2 gap-y-3 mt-4 mb-4 py-3 border-y border-outline-variant/50 shrink-0">
                   <div>
                     <p className="text-[10px] text-on-surface-variant font-bold uppercase tracking-tighter opacity-70">NIRF Overall</p>
                     <p className="text-[13px] font-bold text-on-surface tabular-nums">{college.nirfOverall}</p>
@@ -740,7 +759,7 @@ export default function App() {
               
               {/* Right Section: Branch Table */}
               <div className="flex-1 flex flex-col min-w-0 relative overflow-hidden bg-white">
-                <div className="overflow-auto min-w-full min-h-full pb-8">
+                <div className="overflow-auto w-full max-w-[100vw] sm:max-w-none">
                   <table className="w-full text-left border-collapse min-w-[600px] h-max">
                     <thead className="sticky top-0 z-10 shadow-[0_1px_0_var(--color-outline-variant)]">
                       <tr className="bg-surface-container-low">
@@ -785,7 +804,8 @@ export default function App() {
                                     closing: branch.closing,
                                     chance: branch.chance,
                                     nirfOverall: college._rawInstData?.rankings?.nirf_overall,
-                                    medianPackage: college._rawInstData?.placements?.overall?.Latest?.median_package_lpa || 0
+                                    medianPackage: college._rawInstData?.placements?.overall?.Latest?.median_package_lpa || 0,
+                                    averagePackage: college._rawInstData?.placements?.overall?.Latest?.average_package_lpa || 0
                                   });
                                 }
                               }}
@@ -799,13 +819,6 @@ export default function App() {
                     </tbody>
                   </table>
                 </div>
-                {college.branches.length > 4 && (
-                  <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
-                    <div className="bg-[#982b35]/90 text-white rounded-full p-1.5 shadow-md backdrop-blur-sm">
-                      <ChevronDown className="size-5 opacity-90" />
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           )))}
@@ -821,7 +834,7 @@ export default function App() {
               activeTab === 'predictor' && !selectedCollegeForProfile ? 'text-primary' : 'text-on-surface-variant hover:text-on-surface'
             }`}
           >
-             <Calculator className={`size-5 ${activeTab === 'predictor' && !selectedCollegeForProfile ? 'fill-current' : ''}`} />
+             <Target className={`size-5 ${activeTab === 'predictor' && !selectedCollegeForProfile ? 'text-primary' : ''}`} />
              <span className="text-[10px] font-bold">Predictor</span>
           </button>
           

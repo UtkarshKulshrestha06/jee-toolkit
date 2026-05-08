@@ -13,6 +13,7 @@ export interface UserDetails {
 
 interface LandingPageProps {
   onProceed: (details: UserDetails) => void;
+  initialData?: UserDetails | null;
 }
 
 const STATES = [
@@ -29,15 +30,15 @@ const CATEGORIES = [
   "OBC-NCL (PwD)", "SC", "SC (PwD)", "ST", "ST (PwD)"
 ];
 
-export function LandingPage({ onProceed }: LandingPageProps) {
+export function LandingPage({ onProceed, initialData }: LandingPageProps) {
   const [details, setDetails] = useState<UserDetails>({
-    name: '',
-    email: '',
-    gender: 'Gender-Neutral',
-    mainRank: '',
-    advRank: '',
-    category: 'OPEN',
-    state: ''
+    name: initialData?.name || '',
+    email: initialData?.email || '',
+    gender: initialData?.gender || 'Gender-Neutral',
+    mainRank: initialData?.mainRank || '',
+    advRank: initialData?.advRank || '',
+    category: initialData?.category || 'OPEN',
+    state: initialData?.state || ''
   });
 
   const [errors, setErrors] = useState<Partial<UserDetails>>({});
@@ -48,7 +49,7 @@ export function LandingPage({ onProceed }: LandingPageProps) {
     if (!details.email.trim()) newErrors.email = 'Email is required';
     else if (!/^\S+@\S+\.\S+$/.test(details.email)) newErrors.email = 'Valid email is required';
     
-    if (!details.mainRank) newErrors.mainRank = 'JEE Main Rank is required';
+    if (!details.mainRank) newErrors.mainRank = 'Main Rank is required';
     else if (isNaN(Number(details.mainRank)) || Number(details.mainRank) <= 0) newErrors.mainRank = 'Valid positive rank is required';
 
     if (!details.state) newErrors.state = 'Domicile State is required';
@@ -240,12 +241,12 @@ export function LandingPage({ onProceed }: LandingPageProps) {
               type="submit" 
               className="w-full mt-4 py-4 bg-primary text-on-primary font-bold rounded-xl shadow-lg shadow-primary/20 hover:bg-primary-container transition-all hover:-translate-y-[1px] flex items-center justify-center gap-2 group"
             >
-              Proceed to Prediction
+              Enter Dashboard
               <ArrowRight className="size-5 group-hover:translate-x-1 transition-transform" />
             </button>
 
             <p className="text-center text-xs text-on-surface-variant font-medium mt-4 opacity-70">
-              By proceeding, you agree to our <span className="text-primary cursor-pointer hover:underline">Terms of Service</span>.
+              Data is stored locally on your device.
             </p>
           </form>
         </div>
@@ -253,3 +254,4 @@ export function LandingPage({ onProceed }: LandingPageProps) {
     </div>
   );
 }
+

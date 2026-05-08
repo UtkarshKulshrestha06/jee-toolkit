@@ -146,11 +146,11 @@ export function Placements({ rawData, instituteData, onSelectCollege }: Placemen
           </div>
       </header>
 
-       {/* Filter Bar */}
-      <div className="bg-surface-container-lowest border-b border-outline-variant px-gutter py-4 flex flex-col gap-4 sticky top-0 z-40 flex-shrink-0 shadow-sm relative">
-         <div className="flex flex-wrap items-center justify-between gap-4">
-            <div className="flex flex-wrap items-center gap-3">
-              <CustomDropdown
+      {/* Filter Bar */}
+      <div className="bg-surface-container-lowest border-b border-outline-variant px-gutter py-3 flex flex-col gap-3 sticky top-0 z-40 flex-shrink-0 shadow-sm relative">
+           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+             <div className="flex flex-wrap items-center gap-2 flex-1">
+               <CustomDropdown
                   label="Academic Year"
                   value={yearFilter}
                   options={[
@@ -202,14 +202,18 @@ export function Placements({ rawData, instituteData, onSelectCollege }: Placemen
                   ]}
                   onChange={(val) => setMinPlacement(Number(val))}
                 />
-            </div>
+                {(collegeTypeFilter.length > 0 || collegeNameFilter.length > 0 || branchFilter.length > 0 || minPlacement > 0) && (
+                  <button
+                    onClick={() => { setCollegeTypeFilter([]); setCollegeNameFilter([]); setBranchFilter([]); setMinPlacement(0); }}
+                    className="text-[11px] font-bold text-[#982b35] hover:underline shrink-0 px-2"
+                  >
+                    Clear all
+                  </button>
+                )}
+             </div>
 
-            <div className="flex items-center gap-4">
-                 <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-widest hidden md:block">
-                   <span className="text-primary text-sm tabular-nums font-bold">{placementRecords.length}</span> records
-                 </p>
-                 <div className="h-6 w-px bg-outline-variant hidden xl:block"></div>
-                 <CustomDropdown
+             <div className="flex flex-wrap items-center gap-3 shrink-0 self-start sm:self-auto mt-1 sm:mt-0 justify-end">
+               <CustomDropdown
                   label="Sort By:"
                   value={sortBy}
                   options={[
@@ -223,8 +227,12 @@ export function Placements({ rawData, instituteData, onSelectCollege }: Placemen
                   onChange={setSortBy}
                   className="!bg-surface-container"
                 />
-            </div>
-         </div>
+               <div className="h-5 w-px bg-outline-variant hidden sm:block"></div>
+               <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-widest text-right shrink-0 hidden sm:block">
+                 <span className="text-[#982b35] text-base md:text-lg tabular-nums font-extrabold">{placementRecords.length}</span> records
+               </p>
+             </div>
+           </div>
       </div>
 
       {/* Content */}

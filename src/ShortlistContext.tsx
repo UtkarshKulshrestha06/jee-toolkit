@@ -12,6 +12,7 @@ export interface ShortlistItem {
   chance?: string;
   nirfOverall?: number | string;
   medianPackage?: number | string;
+  averagePackage?: number | string;
 }
 
 interface ShortlistContextType {

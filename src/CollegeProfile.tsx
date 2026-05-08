@@ -6,7 +6,7 @@ import {
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, BarChart, Bar, Legend
 } from 'recharts';
-import { ChanceLevel, calculateChance } from './data';
+import { ChanceLevel, calculateChance, RawData } from './data';
 
 const getChanceStyles = (chance: ChanceLevel) => {
   switch (chance) {
@@ -29,7 +29,11 @@ const getChanceStyles = (chance: ChanceLevel) => {
   }
 };
 
-export function CollegeProfile({ college, userRank, onBack }: { college: any, userRank?: number, onBack: () => void }) {
+export function CollegeProfile({ college, rawData, userRank, onBack }: { college: any, rawData?: RawData | null, userRank?: number, onBack: () => void }) {
+  // Try to find the actual entries from rawData if they exist.
+  const rawDataCollege = rawData?.colleges.find(c => String(c.id) === String(college.id) || c.name === college.name);
+  const collegeEntries = rawDataCollege?.entries || college.rawEntries || [];
+
   // Use passed college details or fallback to dummy
   const raw = college._rawInstData || {};
   
@@ -151,8 +155,8 @@ export function CollegeProfile({ college, userRank, onBack }: { college: any, us
     let sourceList: any[] = [];
     
     // If we have raw entries, we use our local filter state to create the branches list
-    if (college.rawEntries && college.rawEntries.length > 0) {
-      sourceList = college.rawEntries
+    if (collegeEntries && collegeEntries.length > 0) {
+      sourceList = collegeEntries
         .filter((entry: any) => 
           entry.seatType === cutoffCategory && 
           entry.quota === cutoffQuota && 
@@ -186,7 +190,7 @@ export function CollegeProfile({ college, userRank, onBack }: { college: any, us
         chance: userRank !== undefined ? calculateChance(userRank, Math.floor(b.opening * variation), Math.floor(b.closing * variation)) : b.chance
       }
     });
-  }, [college.rawEntries, college.branches, college.id, cutoffSearchQuery, cutoffFilterYear, cutoffCategory, cutoffGender, cutoffQuota, userRank]);
+  }, [collegeEntries, college.branches, college.id, cutoffSearchQuery, cutoffFilterYear, cutoffCategory, cutoffGender, cutoffQuota, userRank]);
 
   return (
     <div className="flex-1 flex flex-col h-full bg-surface-container-lowest overflow-hidden">
@@ -223,12 +227,12 @@ export function CollegeProfile({ college, userRank, onBack }: { college: any, us
         {/* Navigation Tabs */}
         <div className="border-b border-outline-variant bg-surface-container-lowest sticky top-0 z-10 shadow-sm">
           <div className="max-w-6xl mx-auto px-4 md:px-6 flex gap-6 overflow-x-auto no-scrollbar">
-            {([
+            {[
               { id: 'overview', label: 'Overview', ref: overviewRef },
               { id: 'cutoffs', label: 'Branches & Cutoffs', ref: cutoffsRef },
               { id: 'placements', label: 'Placements', ref: placementsRef },
               { id: 'fees', label: 'Fees & Structure', ref: feesRef, hidden: true }
-            ] as const).filter(t => !t.hidden).map((tab: any) => (
+            ].filter(t => !t.hidden).map((tab: any) => (
               <button
                 key={tab.id}
                 onClick={() => scrollToSection(tab.id, tab.ref)}

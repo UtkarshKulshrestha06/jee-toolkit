@@ -17,8 +17,8 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
   const [counselling, setCounselling] = useState<string>('JoSAA');
   const [year, setYear] = useState<string>('2025');
   const [round, setRound] = useState<string>('1');
-  const [collegeType, setCollegeType] = useState<string[]>([]);
-  const [collegeName, setCollegeName] = useState<string[]>([]);
+  const [collegeType, setCollegeType] = useState<string>('ALL');
+  const [collegeName, setCollegeName] = useState<string>('ALL');
   const [branch, setBranch] = useState<string[]>([]);
   const [quota, setQuota] = useState<string>('ALL');
   const [category, setCategory] = useState<string>('ALL');
@@ -26,6 +26,15 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
   const [sortBy, setSortBy] = useState<string>('institute_asc');
 
   const [rawData, setRawData] = useState<RawData | null>(initialRawData);
+
+  // Defer the states that trigger heavy filtering to improve UI responsiveness
+  const deferredCollegeType = React.useDeferredValue(collegeType);
+  const deferredCollegeName = React.useDeferredValue(collegeName);
+  const deferredBranch = React.useDeferredValue(branch);
+  const deferredQuota = React.useDeferredValue(quota);
+  const deferredCategory = React.useDeferredValue(category);
+  const deferredGender = React.useDeferredValue(gender);
+  const deferredSortBy = React.useDeferredValue(sortBy);
 
   useEffect(() => {
     if (counselling === '--Select--' || year === '--Select--' || round === '--Select--') return;
@@ -66,7 +75,7 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
   const allCollegesOptions = useMemo(() => {
     if (!rawData) return [];
     return rawData.colleges.filter(c => {
-      return matchesInstituteType(c.name, collegeType, c.collegeType);
+      return collegeType === 'ALL' || c.collegeType === collegeType || c.name.includes(collegeType);
     }).map(c => ({ label: c.name, value: c.name })).sort((a,b) => a.label.localeCompare(b.label));
   }, [rawData, collegeType]);
 
@@ -74,7 +83,7 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
      if (!rawData) return [];
      const branches = new Set<string>();
      rawData.colleges.forEach(c => {
-        if (collegeName.length === 0 || collegeName.includes(c.name)) {
+        if (collegeName === 'ALL' || c.name === collegeName) {
            c.entries.forEach(e => branches.add(e.program));
         }
      });
@@ -102,10 +111,10 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
     return Array.from(gendersSet).sort().map(g => ({ label: g, value: g }));
   }, [rawData]);
 
-  const hasFilters = collegeType.length > 0 || collegeName.length > 0 || branch.length > 0 || 
-      (quota !== 'ALL' && quota !== '--Select--') || 
-      (category !== 'ALL' && category !== '--Select--') || 
-      (gender !== 'ALL' && gender !== '--Select--');
+  const hasFilters = deferredCollegeType !== 'ALL' || deferredCollegeName !== 'ALL' || deferredBranch.length > 0 || 
+      (deferredQuota !== 'ALL' && deferredQuota !== '--Select--') || 
+      (deferredCategory !== 'ALL' && deferredCategory !== '--Select--') || 
+      (deferredGender !== 'ALL' && deferredGender !== '--Select--');
 
   const tableData = useMemo(() => {
     if (!rawData) return null;
@@ -114,20 +123,20 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
     let flatData: any[] = [];
     
     rawData.colleges.forEach(c => {
-        if (!matchesInstituteType(c.name, collegeType, c.collegeType)) return;
+        if (deferredCollegeType !== 'ALL' && c.collegeType !== deferredCollegeType && !c.name.includes(deferredCollegeType)) return;
 
-        if (collegeName.length > 0 && !collegeName.includes(c.name)) return;
+        if (deferredCollegeName !== 'ALL' && c.name !== deferredCollegeName) return;
 
         c.entries.forEach(e => {
-            if (branch.length > 0 && !branch.includes(e.program)) return;
-            if (quota !== 'ALL' && quota !== '--Select--') {
-              const matchQuota = (quota === 'AI' || quota === 'OS') 
+            if (deferredBranch.length > 0 && !deferredBranch.includes(e.program)) return;
+            if (deferredQuota !== 'ALL' && deferredQuota !== '--Select--') {
+              const matchQuota = (deferredQuota === 'AI' || deferredQuota === 'OS') 
                 ? (e.quota === 'AI' || e.quota === 'OS')
-                : (e.quota === quota);
+                : (e.quota === deferredQuota);
               if (!matchQuota) return;
             }
-            if (category !== 'ALL' && category !== '--Select--' && e.seatType !== category) return;
-            if (gender !== 'ALL' && gender !== '--Select--' && e.gender !== gender) return;
+            if (deferredCategory !== 'ALL' && deferredCategory !== '--Select--' && e.seatType !== deferredCategory) return;
+            if (deferredGender !== 'ALL' && deferredGender !== '--Select--' && e.gender !== deferredGender) return;
 
             const inst = instituteData?.find(i => isSameInstituteName(i.institute_name, c.name));
             
@@ -145,14 +154,14 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
     });
 
     return flatData.sort((a,b) => {
-       if (sortBy === 'cutoff_asc') return a.closing - b.closing;
-       if (sortBy === 'cutoff_desc') return b.closing - a.closing;
-       if (sortBy === 'institute_asc') {
+       if (deferredSortBy === 'cutoff_asc') return a.closing - b.closing;
+       if (deferredSortBy === 'cutoff_desc') return b.closing - a.closing;
+       if (deferredSortBy === 'institute_asc') {
            const c = a.institute.localeCompare(b.institute);
            if (c !== 0) return c;
            return a.program.localeCompare(b.program);
        }
-       if (sortBy === 'institute_desc') {
+       if (deferredSortBy === 'institute_desc') {
            const c = b.institute.localeCompare(a.institute);
            if (c !== 0) return c;
            return b.program.localeCompare(a.program);
@@ -165,7 +174,7 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
        return a.opening - b.opening;
     });
 
-  }, [rawData, collegeType, collegeName, branch, quota, category, gender, sortBy]);
+  }, [rawData, deferredCollegeType, deferredCollegeName, deferredBranch, deferredQuota, deferredCategory, deferredGender, deferredSortBy]);
 
   const processOptionWithAll = (opts: any[]) => [{label: 'ALL', value: 'ALL'}, ...opts];
 
@@ -197,17 +206,17 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
              </div>
              <div className="lg:col-span-3">
                  <FieldWrapper label="Institute Type">
-                     <CustomDropdown label="Institute Type" variant="josaa" hideLabel fullWidth multi={true} value={collegeType} onChange={setCollegeType} options={[{ value: 'IIT', label: 'IIT' }, { value: 'NIT', label: 'NIT' }, { value: 'IIIT', label: 'IIIT' }, { value: 'GFTI', label: 'GFTI' }]} />
+                     <CustomDropdown label="Institute Type" variant="josaa" hideLabel fullWidth multi={false} value={collegeType} onChange={setCollegeType} options={[{ value: 'ALL', label: 'ALL' }, { value: 'IIT', label: 'IIT' }, { value: 'NIT', label: 'NIT' }, { value: 'IIIT', label: 'IIIT' }, { value: 'GFTI', label: 'GFTI' }]} />
                  </FieldWrapper>
              </div>
              <div className="lg:col-span-3">
                  <FieldWrapper label="Institute Name">
-                     <CustomDropdown label="Institute Name" variant="josaa" hideLabel fullWidth multi={true} searchable={true} value={collegeName} onChange={setCollegeName} options={allCollegesOptions} />
+                     <CustomDropdown label="Institute Name" variant="josaa" hideLabel fullWidth multi={false} searchable={true} value={collegeName} onChange={setCollegeName} options={processOptionWithAll(allCollegesOptions)} />
                  </FieldWrapper>
              </div>
              <div className="lg:col-span-6">
                  <FieldWrapper label="Academic Program">
-                     <CustomDropdown label="Academic Program" variant="josaa" hideLabel fullWidth multi={true} searchable={true} value={branch} onChange={setBranch} options={branchOptions} />
+                     <CustomDropdown label="Academic Program" variant="josaa" hideLabel fullWidth multi={true} searchable={true} value={branch} onChange={setBranch} options={branchOptions} className="w-full" />
                  </FieldWrapper>
              </div>
              <div className="lg:col-span-2">
@@ -314,11 +323,13 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
                               } else {
                                 let nO = undefined;
                                 let mP = undefined;
+                                let aP = undefined;
                                 if (instituteData) {
                                    const rawData = instituteData.find(inst => isSameInstituteName(inst.institute_name, row.institute));
                                    if(rawData) {
                                        nO = rawData.rankings?.nirf_overall;
                                        mP = rawData.placements?.overall?.Latest?.median_package_lpa || 0;
+                                       aP = rawData.placements?.overall?.Latest?.average_package_lpa || 0;
                                     }
                                 }
 
@@ -332,7 +343,8 @@ export function CutoffSearch({ rawData: initialRawData, instituteData }: { rawDa
                                   opening: row.opening,
                                   closing: row.closing,
                                   nirfOverall: nO,
-                                  medianPackage: mP
+                                  medianPackage: mP,
+                                  averagePackage: aP
                                 });
                               }
                             }}

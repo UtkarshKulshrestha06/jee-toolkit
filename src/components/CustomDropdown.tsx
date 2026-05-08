@@ -52,11 +52,13 @@ export const CustomDropdown = ({
     setMenuStyle({
       position: 'fixed',
       left: rect.left,
-      width: Math.max(rect.width, 200),
-      maxWidth: 340,
+      minWidth: Math.max(rect.width, 200),
+      width: 'auto',
+      maxWidth: '90vw',
+      maxHeight: 'max(60vh, 320px)',
       zIndex: 9999,
       ...(openAbove
-        ? { bottom: window.innerHeight - rect.top + 4, top: 'auto' }
+        ? { bottom: window.innerHeight - rect.top + 4, top: 'auto', }
         : { top: rect.bottom + 4, bottom: 'auto' }),
     });
   }, [options.length, searchable]);
@@ -133,7 +135,7 @@ export const CustomDropdown = ({
     : options;
 
   return (
-    <div className={`relative shrink-0 ${className}`}>
+    <div className={`relative ${className.includes('w-') || className.includes('flex-1') ? '' : 'shrink-0'} ${className}`}>
       <button
         ref={triggerRef}
         type="button"
@@ -144,7 +146,7 @@ export const CustomDropdown = ({
           if (isOpen) setSearch('');
         }}
         className={`
-          flex items-center gap-1.5 py-1.5 pl-3 pr-2.5 outline-none transition-all
+          flex items-center gap-1.5 py-1.5 pl-3 pr-2.5 outline-none transition-all w-full
           ${variant === 'josaa' 
              ? `bg-white text-[#212529] rounded-md text-sm border 
                 ${isOpen ? 'border-[#b00a2b] ring-1 ring-[#b00a2b]/20' : 'border-[#e4c4c4] hover:border-[#d4aaaa]'}
@@ -153,12 +155,12 @@ export const CustomDropdown = ({
                 ${isOpen ? 'border-[#982b35] bg-[#f5d5d7] ring-1 ring-[#982b35]/20' : 'border-[#f4d4d4] hover:bg-[#f6e1e1] hover:border-pink-300'}
                 ${disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`
           }
-          shadow-sm whitespace-nowrap ${fullWidth ? 'w-full justify-between' : ''}
+          shadow-sm whitespace-nowrap ${fullWidth ? 'justify-between' : ''}
         `}
       >
-        <span className="flex items-center gap-1 min-w-0">
+        <span className="flex items-center gap-1 min-w-0 flex-1">
           {!hideLabel && <span className="opacity-70 font-medium shrink-0">{label}</span>}
-          <span className={`truncate ${variant === 'josaa' ? 'font-normal text-[13.5px]' : 'font-bold'} ${fullWidth ? '' : 'max-w-[130px]'}`}>{displayValue()}</span>
+          <span className={`truncate ${variant === 'josaa' ? 'font-normal text-[13.5px]' : 'font-bold'} ${fullWidth ? '' : (className.includes('w-') && !className.includes('w-px') ? '' : 'max-w-[130px]')}`}>{displayValue()}</span>
         </span>
         {multi && hasSelection ? (
           <span
@@ -178,7 +180,7 @@ export const CustomDropdown = ({
         <div
           ref={menuRef}
           style={menuStyle}
-          className="overflow-y-auto bg-white border border-[#f4d4d4] shadow-2xl rounded-xl py-1.5 scrollbar-thin scrollbar-thumb-pink-200 scrollbar-track-transparent"
+          className={`overflow-auto bg-white border border-[#f4d4d4] shadow-2xl rounded-xl py-1.5 scrollbar-thin scrollbar-thumb-pink-200 scrollbar-track-transparent ${options.length > 6 ? 'resize' : ''}`}
           onMouseDown={e => e.stopPropagation()}
         >
           {searchable && (
